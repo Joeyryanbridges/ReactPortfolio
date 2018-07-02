@@ -8,14 +8,19 @@ export default class Home extends Component {
         return (
             <Grid>
                 <Jumbotron>
-                    <h2>Welcome to JoeyRyanBridges.io</h2>
-                    <h4>Create Design Imagine</h4>
-                    <Link to="/about">
-                        <Button bsSytle="Primary">About</Button>
-                    </Link>
-                    <Link to="/portfolio">
-                        <Button bsSytle="Primary">Portfolio</Button>
-                    </Link>
+                    <center>
+                        <h2>Joey R. Bridges</h2>
+                        <h4>Create Design Imagine</h4>
+                        <Link to="/about">
+                            <Button bsSytle="Success">About</Button>
+                        </Link>
+                        <Link to="/portfolio">
+                            <Button bsSytle="Success">Portfolio</Button>
+                        </Link>
+                        <Link to="/contact">
+                            <Button bsSytle="Success">Contact</Button>
+                        </Link>
+                    </center>
                     <br />
                     <Image src="assets/background.jpg" className="home-pic" />
                 </Jumbotron>
