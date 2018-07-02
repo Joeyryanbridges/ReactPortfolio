@@ -12,7 +12,7 @@ export default class Home extends Component {
                         <h2>Developing &#9686; Creating &#9687; Designing</h2>
                     </center>
                     <br />
-                    <Image src="assets/background.jpg" className="home-pic" />
+                    <Image src="assets/background.jpg" className="home-pic" responsive />
                     <br />
                     <br />
                     <center>
