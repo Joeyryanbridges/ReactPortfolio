@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom';
-import { Jumbotron, Grid, Image, Button } from 'react-bootstrap';
+import { Jumbotron, Grid, Button } from 'react-bootstrap';
 import './Home.css';
 
 export default class Home extends Component {
@@ -8,7 +8,6 @@ export default class Home extends Component {
         return (
             <Grid>
                 <Jumbotron>
-                    <Image src="assets/Stars.jpg" className="jumbotron-pic" />
                     <h2>Welcome to JoeyRyanBridges.io</h2>
                     <h4>Create Design Imagine</h4>
                     <Link to="/about">

@@ -4,7 +4,15 @@
 }
 
 .jumbotron-pic {
-    height: 50%;
+    height: auto;
     width: auto; 
+}
+
+.jumbotron {
+    padding-top: 30px;
+    padding-bottom: 40%;
+    margin-bottom: 30px;
+    color: inherit;
+    background-color:#f5e9e5;
 }
 
