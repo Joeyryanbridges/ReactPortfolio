@@ -72,7 +72,7 @@ export default class About extends Component {
                                 </Panel>
                                 <Panel eventKey="3">
                                     <Panel.Heading>
-                                        <Panel.Title toggle>Language's to pursue</Panel.Title>
+                                        <Panel.Title toggle>Language's to learn</Panel.Title>
                                     </Panel.Heading>
                                     <Panel.Body collapsible>
 
@@ -97,7 +97,7 @@ export default class About extends Component {
 
 
                             </PanelGroup>
-
+                            <p className="lowText">*Click text in a panel of your choice to view additional content!*</p>
 
                         </Col>
                     </Row>
