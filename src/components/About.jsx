@@ -27,12 +27,13 @@ export default class About extends Component {
                             <PanelGroup accordion id="accordion-example">
                                 <Panel eventKey="1">
                                     <Panel.Heading>
-                                        <Panel.Title toggle>About Joey</Panel.Title>
+                                        <Panel.Title toggle className="text">About Joey</Panel.Title>
                                     </Panel.Heading>
                                     <Panel.Body collapsible>
-                                        <p> My name is Joey Bridges, and I am 30 years young. I currently reside in the city of Tucson
-                                            Arizona with my beautiful wife, two handsome boys, and my sweet daughter (which whom
-                                            will never date).
+                                        <p>
+                                            My name is Joey Bridges, and I am 30 years young. I currently reside in the city of Tucson
+                                               Arizona with my beautiful wife, two handsome boys, and my sweet daughter (which whom
+                                               will never date).
                                     </p>
                                         <p> From the start of my journey at the University of Arizona's coding and Web Development
                                             program, I've gained a good deal of experience in programming in general, and in
@@ -48,7 +49,7 @@ export default class About extends Component {
                                 </Panel>
                                 <Panel eventKey="2">
                                     <Panel.Heading>
-                                        <Panel.Title toggle>Current Programming Language Toolbelt</Panel.Title>
+                                        <Panel.Title toggle className="text">Current Programming Language Toolbelt</Panel.Title>
                                     </Panel.Heading>
                                     <Panel.Body collapsible>
 
@@ -72,7 +73,7 @@ export default class About extends Component {
                                 </Panel>
                                 <Panel eventKey="3">
                                     <Panel.Heading>
-                                        <Panel.Title toggle>Language's to learn</Panel.Title>
+                                        <Panel.Title toggle className="text">Language's to learn</Panel.Title>
                                     </Panel.Heading>
                                     <Panel.Body collapsible>
 
@@ -87,7 +88,7 @@ export default class About extends Component {
                                 </Panel>
                                 <Panel eventKey="4">
                                     <Panel.Heading>
-                                        <Panel.Title toggle>Hobbies</Panel.Title>
+                                        <Panel.Title toggle className="text">Hobbies</Panel.Title>
                                     </Panel.Heading>
                                     <Panel.Body collapsible>
 
