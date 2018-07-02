@@ -3,6 +3,18 @@ import { Row, Image, Col, PanelGroup, Panel } from 'react-bootstrap';
 import './About.css';
 
 export default class About extends Component {
+    constructor(props, context) {
+        super(props, context);
+        this.handleSelect = this.handleSelect.bind(this);
+
+        this.state = {
+            activeKey: '2'
+        };
+    }
+
+    handleSelect(activeKey) {
+        this.setState({ activeKey });
+    }
     render() {
         return (
             <div>
@@ -15,7 +27,7 @@ export default class About extends Component {
                             <PanelGroup accordion id="accordion-example">
                                 <Panel eventKey="1">
                                     <Panel.Heading>
-                                        <Panel.Title toggle>Collapsible Group Item #1</Panel.Title>
+                                        <Panel.Title toggle>About Joey</Panel.Title>
                                     </Panel.Heading>
                                     <Panel.Body collapsible>
                                         <p> My name is Joey Bridges, and I am 30 years young. I currently reside in the city of Tucson
@@ -36,43 +48,61 @@ export default class About extends Component {
                                 </Panel>
                                 <Panel eventKey="2">
                                     <Panel.Heading>
-                                        <Panel.Title toggle>Collapsible Group Item #2</Panel.Title>
+                                        <Panel.Title toggle>Current Programming Language Toolbelt</Panel.Title>
                                     </Panel.Heading>
                                     <Panel.Body collapsible>
-                                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
-                                        richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard
-                                        dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf
-                                        moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla
-                                        assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore
-                                        wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur
-                                        butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim
-                                        aesthetic synth nesciunt you probably haven't heard of them accusamus
-                                        labore sustainable VHS.
-    </Panel.Body>
+
+                                        <li>HTML</li>
+                                        <li>CSS</li>
+                                        <li>JavaScript</li>
+                                        <li>Express</li>
+                                        <li>Handlebars</li>
+                                        <li>jQuery</li>
+                                        <li>JSON</li>
+                                        <li>Node.js</li>
+                                        <li>Sequelize</li>
+                                        <li>Nightmare.js</li>
+                                        <li>Sequelize</li>
+                                        <li>mySQL</li>
+                                        <li>MongoDB</li>
+                                        <li>Mongoose</li>
+                                        <li>React.js</li>
+                                        <li>Node Package Manager (NPM)</li>
+                                    </Panel.Body>
                                 </Panel>
                                 <Panel eventKey="3">
                                     <Panel.Heading>
-                                        <Panel.Title toggle>Collapsible Group Item #3</Panel.Title>
+                                        <Panel.Title toggle>Language's to pursue</Panel.Title>
                                     </Panel.Heading>
                                     <Panel.Body collapsible>
-                                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
-                                        richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard
-                                        dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf
-                                        moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla
-                                        assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore
-                                        wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur
-                                        butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim
-                                        aesthetic synth nesciunt you probably haven't heard of them accusamus
-                                        labore sustainable VHS.
-    </Panel.Body>
+
+                                        <li>Python</li>
+                                        <li>React Native</li>
+                                        <li>C++</li>
+                                        <li>Java</li>
+                                        <li>PHP</li>
+
+
+                                    </Panel.Body>
                                 </Panel>
-                            </PanelGroup>;
+                                <Panel eventKey="4">
+                                    <Panel.Heading>
+                                        <Panel.Title toggle>Hobbies</Panel.Title>
+                                    </Panel.Heading>
+                                    <Panel.Body collapsible>
+
+
+                                    </Panel.Body>
+                                </Panel>
+
+
+                            </PanelGroup>
 
 
                         </Col>
                     </Row>
-                </div>
-            </div>
+                </div >
+            </div >
         )
     }
 }
