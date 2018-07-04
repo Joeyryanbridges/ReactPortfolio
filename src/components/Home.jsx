@@ -15,7 +15,7 @@ export default class Home extends Component {
                     <Image src="assets/background.jpg" className="home-pic" responsive />
                     <br />
                     <br />
-                    <center>
+                    <center className="iconsBaby">
                         <Image src="assets/giticon.png" className="githubIcon" to="https://github.com/Joeyryanbridges" />
                         <Image src="assets/linkedinIcon.png" className="linkedinIcon" href="https://github.com/Joeyryanbridges" />
                         <Image src="assets/SOFIcon.png" className="githubIcon" href="https://github.com/Joeyryanbridges" />
