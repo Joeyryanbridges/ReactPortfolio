@@ -20,10 +20,10 @@ export default class About extends Component {
             <div>
                 <div className="container">
                     <Row className="show-grid text-center">
-                        <Col xs={6} sm={6} className="person-wrapper">
+                        <Col xs={6} sm={8} className="person-wrapper">
                             <Image src="assets/family.jpg" className="profile-pic" />
                         </Col>
-                        <Col xs={6} sm={6} className="person-wrapper">
+                        <Col xs={6} sm={4} className="person-wrapper">
                             <PanelGroup accordion id="accordion-example">
                                 <Panel eventKey="1">
                                     <Panel.Heading>
@@ -49,7 +49,7 @@ export default class About extends Component {
                                 </Panel>
                                 <Panel eventKey="2">
                                     <Panel.Heading>
-                                        <Panel.Title toggle className="text">Current Programming Language Toolbelt</Panel.Title>
+                                        <Panel.Title toggle className="text"> Toolbelt</Panel.Title>
                                     </Panel.Heading>
                                     <Panel.Body collapsible>
 
@@ -73,9 +73,11 @@ export default class About extends Component {
                                 </Panel>
                                 <Panel eventKey="3">
                                     <Panel.Heading>
-                                        <Panel.Title toggle className="text">Language's to learn</Panel.Title>
+                                        <Panel.Title toggle className="text">Future</Panel.Title>
                                     </Panel.Heading>
                                     <Panel.Body collapsible>
+
+                                        <h4>To be learned..</h4>
 
                                         <li>Python</li>
                                         <li>React Native</li>
@@ -95,9 +97,11 @@ export default class About extends Component {
 
                                     </Panel.Body>
                                 </Panel>
-
-                                <p className="lowText">*Click text in panel of your choice to view additional content!*</p>
                             </PanelGroup>
+                            <br />
+                            <br />
+                            <br />
+                            <p className="lowText">*Click text in panel of your choice to view additional content!*</p>
 
 
                         </Col>

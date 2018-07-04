@@ -4,9 +4,27 @@
     -webkit-box-shadow: 5px 4px 9px grey;
     box-shadow: 9px 9px 9px grey;
 }
+
+.panel-default>.panel-heading+.panel-collapse>.panel-body {
+    border-top-color: #969696;
+    background-color: #a075229c;
+    box-shadow: 3px 4px 8px 0px grey;
+}
+
 .panel-group {
     margin-bottom: 0px;
-    margin-top: 8%;
+    margin-top: -0.1%;
+    -webkit-box-shadow: 7px 6px 16px 3px grey;
+    box-shadow: 7px 6px 16px 3px grey;
+}
+
+#accordion-example-heading-1.panel-heading {
+    background-color: black;
+}
+
+.panel-default>.panel-heading+.panel-collapse>.panel-body {
+    border-top-color: #969696;
+    background-color: #a075229c;
 }
 
 .panel {
