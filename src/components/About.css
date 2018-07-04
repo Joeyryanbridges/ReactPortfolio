@@ -1,30 +1,30 @@
 .profile-pic {
-    height: 600px;
-    width: 650px;
+    height: 550px;
+    width: 600px;
+    margin-right: 86px;
     -webkit-box-shadow: 5px 4px 9px grey;
     box-shadow: 9px 9px 9px grey;
 }
-
 .panel-default>.panel-heading+.panel-collapse>.panel-body {
     border-top-color: #969696;
-    background-color: #a075229c;
-    box-shadow: 3px 4px 8px 0px grey;
+    background-color: #b2ada0;
+    margin-top: 8px;
+    border-radius: 15px;
+   
 }
+
 
 .panel-group {
     margin-bottom: 0px;
-    margin-top: -0.1%;
+    margin-top: 0.3%;
+    margin-left: -114px;
+    margin-right: 35px;
     -webkit-box-shadow: 7px 6px 16px 3px grey;
     box-shadow: 7px 6px 16px 3px grey;
 }
 
 #accordion-example-heading-1.panel-heading {
     background-color: black;
-}
-
-.panel-default>.panel-heading+.panel-collapse>.panel-body {
-    border-top-color: #969696;
-    background-color: #a075229c;
 }
 
 .panel {
@@ -38,6 +38,15 @@
 
 .lowText {
     margin-top: 5%;
+    margin-right: 154px;
+    font-size: 1.0em;
+}
+.text {
+    font-family: 'Londrina Shadow', cursive;
+    font-size: 1.5em;
+    color: #60574d;
+    text-shadow: -2px -1px 0px 0px black;
+    text-shadow: 1px 3px 3px grey;
 }
 
 .panel-default>.panel-heading {
@@ -48,4 +57,8 @@
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff5f5f5', endColorstr='#ffe8e8e8', GradientType=0);
     background-repeat: repeat-x;
     box-shadow: 5px 4px 9px grey;
+}
+
+p{
+    font-family: 'Patrick Hand SC', cursive;
 }

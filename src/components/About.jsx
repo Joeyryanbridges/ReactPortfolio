@@ -27,7 +27,7 @@ export default class About extends Component {
                             <PanelGroup accordion id="accordion-example">
                                 <Panel eventKey="1">
                                     <Panel.Heading>
-                                        <Panel.Title toggle className="text">About Joey</Panel.Title>
+                                        <Panel.Title toggle className="text">About</Panel.Title>
                                     </Panel.Heading>
                                     <Panel.Body collapsible>
                                         <p>
