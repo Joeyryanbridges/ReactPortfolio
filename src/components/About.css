@@ -5,12 +5,12 @@
     -webkit-box-shadow: 5px 4px 9px grey;
     box-shadow: 9px 9px 9px grey;
 }
+
 .panel-default>.panel-heading+.panel-collapse>.panel-body {
-    border-top-color: #969696;
-    background-color: #b2ada0;
+    /* border-top-color: #969696; */
+    background-color: #e8e8e7;
     margin-top: 8px;
     border-radius: 15px;
-   
 }
 
 
@@ -42,11 +42,11 @@
     font-size: 1.0em;
 }
 .text {
-    font-family: 'Londrina Shadow', cursive;
+    font-family: 'Patrick Hand SC', cursive;
     font-size: 1.5em;
     color: #60574d;
     text-shadow: -2px -1px 0px 0px black;
-    text-shadow: 1px 3px 3px grey;
+    text-shadow: 3px 2px 3px grey;
 }
 
 .panel-default>.panel-heading {
