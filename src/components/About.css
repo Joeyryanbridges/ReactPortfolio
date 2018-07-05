@@ -79,43 +79,144 @@ p{
 /*980px*/
 
 @media screen and (max-width:980px) {
+	.profile-pic {
+        height: 350px;
+        width: 365px;
+        margin-right: 86px;
+        margin-top:14px;
+        -webkit-box-shadow: 5px 4px 9px grey;
+        box-shadow: 9px 9px 9px grey;
+    }
 
+    .panel-group {
+        margin-bottom: 0px;
+        padding-top: 11px;
+        padding-right: 11px;
+        padding-left: 11px;
+        padding-bottom: 11px;
+        margin-top: 0.3%;
+        margin-left: -97px;
+        margin-right: 5px;
+        -webkit-box-shadow: 7px 6px 16px 3px grey;
+        box-shadow: 7px 6px 16px 3px grey;
+        border-radius: 16px;
+    }
 
-	body{
-
-
-
+    .lowText {
+        margin-top: -21%;
+        margin-right: 9px;
+        margin-left: -90px;
+        /* margin-right: 154px; */
+        /* font-size: 1.0em; */
     }
     
     }
 
-/*768PX*/
+/*767PX*/
+@media screen and (max-width:767px) {
 
 
+    .panel-group {
+        margin-bottom: 0px;
+        padding-top: 11px;
+        padding-right: 11px;
+        padding-left: 11px;
+        padding-bottom: 11px;
+        margin-top: 0.3%;
+        margin-left: 0px;
+        margin-right: 5px;
+        -webkit-box-shadow: 7px 6px 16px 3px grey;
+        box-shadow: 7px 6px 16px 3px grey;
+        border-radius: 16px;
+    }
 
-@media screen and (max-width:768px) {
-
-
-	body{
-
-
-
+    .lowText {
+        margin-top: -40px;
+        margin-right: 9px;
+        margin-left: 10px;
+        /* margin-right: 154px; */
+        /* font-size: 1.0em; */
     }
     
     }
 
 
 /*640PX*/
+@media screen and (max-width:640px) {
 
+    .col-xs-6 {
+        width: 92%;
+        margin-top: 0px;
+    }
 
+    .panel-group {
+        margin-bottom: 0px;
+        padding-top: 11px;
+        padding-right: 11px;
+        padding-left: 11px;
+        padding-bottom: 11px;
+        margin-top: 3.3%;
+        margin-left: 26px;
+        margin-right: -27px;
+        -webkit-box-shadow: 7px 6px 16px 3px grey;
+        box-shadow: 7px 6px 16px 3px grey;
+        border-radius: 16px;
+    }
+
+    .profile-pic {
+        height: 450px;
+        width: 500px;
+        margin-right: 86px;
+        margin-left: 51px;
+        margin-top: -6px;
+        -webkit-box-shadow: 5px 4px 9px grey;
+        box-shadow: 9px 9px 9px grey;
+    }
+
+    .lowText {
+        margin-top: -40px;
+        margin-right: 9px;
+        margin-left: 69px;
+        /* margin-right: 154px; */
+        /* font-size: 1.0em; */
+    }
+}
 
 @media screen and (max-width:640px) {
 
-	body{
+    .navbar {
+        position: relative;
+        min-height: 50px;
+        margin-bottom: 20px;
+        padding-top: 29px;
+        margin-left: 44px;
+        margin-right: -107px;
+        padding-bottom: 23px;
+        -webkit-box-shadow: 3px 3px 15px grey;
+        box-shadow: 3px 3px 15px grey;
+    }
 
+    .panel-group {
+        margin-bottom: 0px;
+        padding-top: 11px;
+        padding-right: 11px;
+        padding-left: 11px;
+        padding-bottom: 11px;
+        margin-top: 3.3%;
+        margin-left: 50px;
+        margin-right: -139px;
+        -webkit-box-shadow: 7px 6px 16px 3px grey;
+        box-shadow: 7px 6px 16px 3px grey;
+        border-radius: 16px;
+    }
 
-
-}
+    .lowText {
+        margin-top: -40px;
+        margin-right: 0px;
+        margin-left: 203px;
+        /* margin-right: 154px; */
+        /* font-size: 1.0em; */
+    }
 
 }
 
