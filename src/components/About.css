@@ -6,6 +6,11 @@
     box-shadow: 9px 9px 9px grey;
 }
 
+#accordion-example-heading-1.panel-heading {
+    background-color: black;
+    border-radius: 16px;
+}
+
 .panel-default>.panel-heading+.panel-collapse>.panel-body {
     /* border-top-color: #969696; */
     background-color: #e8e8e7;
@@ -16,11 +21,16 @@
 
 .panel-group {
     margin-bottom: 0px;
+    padding-top: 11px;
+    padding-right: 11px;
+    padding-left: 11px;
+    padding-bottom: 11px;
     margin-top: 0.3%;
     margin-left: -114px;
     margin-right: 35px;
     -webkit-box-shadow: 7px 6px 16px 3px grey;
     box-shadow: 7px 6px 16px 3px grey;
+    border-radius: 16px;
 }
 
 #accordion-example-heading-1.panel-heading {
@@ -53,12 +63,60 @@
     background-image: -webkit-linear-gradient(top,#f5f5f5 0,#e8e8e8 100%);
     background-image: -o-linear-gradient(top,#f5f5f5 0,#e8e8e8 100%);
     background-image: -webkit-gradient(linear,left top,left bottom,from(#f5f5f5),to(#e8e8e8));
-    background-image: linear-gradient(to bottom,#f5f5f5 0,#e8e8e8 100%);
+    background-image: -webkit-gradient(linear,left top, left bottom,color-stop(0, #f5f5f5),to(#e8e8e8));
+    background-image: linear-gradient(to bottom,#c2a692 0,#e8e8e8 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff5f5f5', endColorstr='#ffe8e8e8', GradientType=0);
     background-repeat: repeat-x;
+    -webkit-box-shadow: 5px 4px 9px grey;
     box-shadow: 5px 4px 9px grey;
+    border-radius: 16px;
 }
 
 p{
     font-family: 'Patrick Hand SC', cursive;
 }
+
+/*980px*/
+
+@media screen and (max-width:980px) {
+
+
+	body{
+
+
+
+    }
+    
+    }
+
+/*768PX*/
+
+
+
+@media screen and (max-width:768px) {
+
+
+	body{
+
+
+
+    }
+    
+    }
+
+
+/*640PX*/
+
+
+
+@media screen and (max-width:640px) {
+
+	body{
+
+
+
+}
+
+}
+
+

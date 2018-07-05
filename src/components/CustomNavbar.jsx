@@ -6,30 +6,32 @@ import './CustomNavbar.css';
 export default class CustomNavbar extends Component {
     render() {
         return (
-            <Navbar default collapseOnSelect>
-                <Navbar.Header>
-                    <Navbar.Brand>
-                        <Link to="/">Joey R. Bridges</Link>
-                    </Navbar.Brand>
-                    <Navbar.Toggle />
-                </Navbar.Header>
-                <Navbar.Collapse>
-                    <Nav pullRight>
-                        <NavItem eventKey={1} componentClass={Link} href="/" to="/">
-                            Home
+            <div className="container">
+                <Navbar default collapseOnSelect>
+                    <Navbar.Header>
+                        <Navbar.Brand>
+                            <Link to="/">Joey R. Bridges</Link>
+                        </Navbar.Brand>
+                        <Navbar.Toggle />
+                    </Navbar.Header>
+                    <Navbar.Collapse>
+                        <Nav pullRight>
+                            <NavItem eventKey={1} componentClass={Link} href="/" to="/">
+                                Home
                             </NavItem>
-                        <NavItem eventKey={2} componentClass={Link} href="/About" to="/About">
-                            About
+                            <NavItem eventKey={2} componentClass={Link} href="/About" to="/About">
+                                About
                             </NavItem>
-                        <NavItem eventKey={3} componentClass={Link} href="/Portfolio" to="/Portfolio">
-                            Portfolio
+                            <NavItem eventKey={3} componentClass={Link} href="/Portfolio" to="/Portfolio">
+                                Portfolio
                             </NavItem>
-                        <NavItem eventKey={4} componentClass={Link} href="/Contact" to="/Contact">
-                            Contact
+                            <NavItem eventKey={4} componentClass={Link} href="/Contact" to="/Contact">
+                                Contact
                             </NavItem>
-                    </Nav>
-                </Navbar.Collapse>
-            </Navbar >
+                        </Nav>
+                    </Navbar.Collapse>
+                </Navbar >
+            </div>
         )
     }
 }

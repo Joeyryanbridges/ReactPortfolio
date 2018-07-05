@@ -66,3 +66,48 @@ h2 {
     width: 70px;
     margin-left: 25px;
 }
+
+/*980px*/
+
+@media screen and (max-width:980px) {
+
+
+	.nav>li>a {
+        position: relative;
+        display: block;
+        padding: 14px 26px;
+    }
+    
+    }
+
+/*768PX*/
+
+
+
+@media screen and (max-width:768px) {
+
+
+	body{
+
+
+
+    }
+    
+    }
+
+
+/*640PX*/
+
+
+
+@media screen and (max-width:640px) {
+
+	body{
+
+
+
+}
+
+}
+
+
