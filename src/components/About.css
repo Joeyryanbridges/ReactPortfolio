@@ -182,7 +182,7 @@ p{
     }
 }
 
-@media screen and (max-width:640px) {
+/* @media screen and (max-width:640px) {
 
     .navbar {
         position: relative;
@@ -214,10 +214,7 @@ p{
         margin-top: -40px;
         margin-right: 0px;
         margin-left: 203px;
-        /* margin-right: 154px; */
-        /* font-size: 1.0em; */
+        margin-right: 154px; 
+         font-size: 1.0em;
     }
-
-}
-
-
+*/

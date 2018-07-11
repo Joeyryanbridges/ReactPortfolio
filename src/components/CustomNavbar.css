@@ -14,5 +14,10 @@
     font-size: 18px;
     line-height: 20px;
     font-family: 'Cutive Mono', monospace;
+    margin-left: 10px;
 }
 
+.navbar-right {
+    float: right!important;
+    margin-right: 15px;
+}
