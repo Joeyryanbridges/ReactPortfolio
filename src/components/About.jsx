@@ -25,7 +25,7 @@ export default class About extends Component {
                         </Col>
                         <Col xs={6} sm={4} className="person-wrapper">
                             <PanelGroup accordion id="accordion-example">
-                                <Panel eventKey="1">
+                                <Panel className="style-cards" eventKey="1">
                                     <Panel.Heading>
                                         <Panel.Title toggle className="text">About</Panel.Title>
                                     </Panel.Heading>
@@ -47,7 +47,7 @@ export default class About extends Component {
                                     </p>
                                     </Panel.Body>
                                 </Panel>
-                                <Panel eventKey="2">
+                                <Panel className="style-cards" eventKey="2">
                                     <Panel.Heading>
                                         <Panel.Title toggle className="text"> Toolbelt</Panel.Title>
                                     </Panel.Heading>
@@ -71,7 +71,7 @@ export default class About extends Component {
                                         <li>Node Package Manager (NPM)</li>
                                     </Panel.Body>
                                 </Panel>
-                                <Panel eventKey="3">
+                                <Panel className="style-cards" eventKey="3">
                                     <Panel.Heading>
                                         <Panel.Title toggle className="text">Future</Panel.Title>
                                     </Panel.Heading>
@@ -88,7 +88,7 @@ export default class About extends Component {
 
                                     </Panel.Body>
                                 </Panel>
-                                <Panel eventKey="4">
+                                <Panel className="style-cards" eventKey="4">
                                     <Panel.Heading>
                                         <Panel.Title toggle className="text">Hobbies</Panel.Title>
                                     </Panel.Heading>

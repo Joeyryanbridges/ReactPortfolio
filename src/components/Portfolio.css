@@ -36,6 +36,19 @@ h4 {
         margin: auto;
         height: 400px;
     }
+
+    .panel.panel-default {
+        margin-bottom: 13px;
+        background-color: #f7f7f7;
+        border: 9px solid transparent;
+        border-radius: 0px;
+        -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+        box-shadow: 0 1px 1px rgba(0,0,0,.05);
+        border-radius: 21px;
+        margin-right: 170px;
+        margin-left: 158px;
+        padding-left: 0px;
+    }
     p {
         font-family: 'Patrick Hand SC', cursive;
         font-size: 3em;
@@ -80,5 +93,9 @@ h4 {
     max-width: 100%;
     height: auto;
     border-radius: 13px;
+}
+.col-xs-12 {
+    width: 100%;
+    margin-left: -13px;
 }
 }

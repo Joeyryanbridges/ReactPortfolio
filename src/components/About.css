@@ -113,21 +113,20 @@ p{
     }
 
 /*767PX*/
-@media screen and (max-width:767px) {
+@media screen and (max-width:768px) {
 
 
-    .panel-group {
-        margin-bottom: 0px;
-        padding-top: 11px;
-        padding-right: 11px;
-        padding-left: 11px;
-        padding-bottom: 11px;
-        margin-top: 0.3%;
+    .style-cards.panel.panel-default {
+        margin-bottom: 13px;
+        background-color: #f7f7f7;
+        border: 9px solid transparent;
+        border-radius: 0px;
+        -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+        box-shadow: 0 1px 1px rgba(0,0,0,.05);
+        border-radius: 21px;
+        margin-right: 0px;
         margin-left: 0px;
-        margin-right: 5px;
-        -webkit-box-shadow: 7px 6px 16px 3px grey;
-        box-shadow: 7px 6px 16px 3px grey;
-        border-radius: 16px;
+        padding-left: 0px;
     }
 
     .lowText {
