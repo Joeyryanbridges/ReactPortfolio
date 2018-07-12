@@ -21,6 +21,29 @@
     border-radius: 16px;
 }
 
+h4 {
+    font-family: 'Patrick Hand SC', cursive;
+    font-size: 3em;
+}
+
+
+
+/*768*/
+@media screen and (max-width:768px) {
+    img-responsive, .thumbnail a>img, .thumbnail>img {
+        display: block;
+        max-width: 100%;
+        margin: auto;
+        height: 400px;
+    }
+    p {
+        font-family: 'Patrick Hand SC', cursive;
+        font-size: 3em;
+    }
+
+}
+
+/*414*/
 @media screen and (max-width:414px) {
     .panel.panel-default {
         margin-bottom: 20px;
@@ -40,6 +63,7 @@
     }
 }
 
+/*375*/
 @media screen and (max-width:375px) {
 .panel.panel-default {
     margin-bottom: 20px;
