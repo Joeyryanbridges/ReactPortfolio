@@ -32,6 +32,9 @@
     box-shadow: 7px 6px 16px 3px grey;
     border-radius: 16px;
 }
+.panel-body{
+    font-family: 'Patrick Hand SC', cursive;
+}
 
 #accordion-example-heading-1.panel-heading {
     background-color: black;
@@ -112,7 +115,7 @@ p{
     
     }
 
-/*767PX*/
+/*768PX*/
 @media screen and (max-width:768px) {
 
 
@@ -131,8 +134,8 @@ p{
 
     .lowText {
         margin-top: -40px;
-        margin-right: 9px;
-        margin-left: 10px;
+        margin-right: 48px;
+        margin-left: -41px;
         /* margin-right: 154px; */
         /* font-size: 1.0em; */
     }
