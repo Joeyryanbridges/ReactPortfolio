@@ -9,7 +9,7 @@ export default class Home extends Component {
             <Grid>
                 <Jumbotron>
                     <center>
-                        <h2>Developing &#9686; Creating &#9687; Designing</h2>
+                        <h2 >&#9686; D&#926;v&#926;loping &#8756; Cr&#926;ating &#9687; &#9686; D&#926;signing &#9687;</h2>
                     </center>
                     <br />
                     <Image src="assets/background.jpg" className="home-pic" responsive />
