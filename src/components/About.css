@@ -202,3 +202,45 @@ p{
         margin-right: 7px;
     }
 }
+
+@media screen and (max-width:375px) {
+    .profile-pic {
+        height: 323px;
+        width: 336px;
+        margin-right: 6px;
+        margin-left: 4px;
+        margin-top: -6px;
+        -webkit-box-shadow: 5px 4px 9px grey;
+        box-shadow: 9px 9px 9px grey;
+    }
+    .panel-group {
+    
+            -webkit-box-shadow: 7px 6px 16px 3px grey;
+            box-shadow: 7px 6px 16px 3px grey;
+            border-radius: 7px;
+            width: 108%;
+            margin-left: 1px;
+            margin-right: 7px;
+            background-image: linear-gradient(to bottom,#bfb3b3 0,#f8f8f8 100%);
+    }
+
+    .col-xs-6 {
+        width: 98%;
+        margin-top: 0px;
+    }
+
+    .panel.panel-default {
+        margin-bottom: 20px;
+        margin-right: -3px;
+        background-color: #f7f7f7;
+        border: 9px solid transparent;
+        border-radius: 0px;
+        -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+        box-shadow: 0 1px 1px rgba(0,0,0,.05);
+        border-radius: 21px;
+    }
+    .lowText {
+        margin-right: 46px;
+        font-size: 1.0em;
+    }
+}
