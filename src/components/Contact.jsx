@@ -33,7 +33,7 @@ export default class Contact extends React.Component {
                         <Col componentClass={ControlLabel} sm={2}>
                             Email
     </Col>
-                        <Col sm={10}>
+                        <Col smOffset={2} sm={10}>
                             <FormControl type="email" placeholder="Email" />
                         </Col>
                     </FormGroup>
@@ -42,7 +42,7 @@ export default class Contact extends React.Component {
                         <Col componentClass={ControlLabel} sm={2}>
                             Password
     </Col>
-                        <Col sm={10}>
+                        <Col smOffset={2} sm={10}>
                             <FormControl type="password" placeholder="Password" />
                         </Col>
                     </FormGroup>
