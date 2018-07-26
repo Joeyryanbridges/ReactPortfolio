@@ -21,8 +21,9 @@ body {
     width: auto; 
 }
 
-.jumbotron {
+.brainImg.jumbotron {
     background-image: url("../brain.png");
+    height: 100px; 
     background-size: cover;
     padding-top: 24%;
     padding-bottom: 3%;
@@ -48,10 +49,10 @@ body {
     margin-bottom: 1%;
 }
 
-h2 {
+/* h2 {
     font-family: 'Julius Sans One', sans-serif;
     text-shadow: 7px 3px 4px #a3a1a1;
-}
+} */
 
 .githubIcon {
     height: 40px;
@@ -71,7 +72,7 @@ h2 {
 
 /*980px*/
 
-@media screen and (max-width:980px) {
+/* @media screen and (max-width:980px) {
 
 
 	.nav>li>a {
@@ -86,32 +87,32 @@ h2 {
         margin-left: -6px;
     }
     
-    }
+    } */
 
 /*768PX*/
-@media screen and (max-width:768px) {
+/* @media screen and (max-width:768px) {
     h2 {
         font-size: 2.9em;
     }
     
-    }
+    } */
 
 
 /*640PX*/
-@media screen and (max-width:640px) {
+@media screen and (max-width:640px) { 
     h2 {
         font-size: 2.7em;
     }
     .jumbotron{
             margin-top: -4px;
     }
-}
+} 
 
-
+/*414PX*/
 @media screen and (max-width:414px) {
     .jumbotron {
-        padding-top: 30px;
-        /* background-image: linear-gradient(to bottom,#847c7c 0,#f8f8f8 100%); */
+        padding-top: 30px; 
+        background-image: linear-gradient(to bottom,#847c7c 0,#f8f8f8 100%); 
         padding-bottom: 30px;
         margin-bottom: 30px;
         color: inherit;
@@ -127,17 +128,14 @@ h2 {
         color: rgb(48, 48, 48);
         margin-bottom: 51px;
     }
-}
+    }
 
+/*375PX*/
 @media screen and (max-width:375px) {
-    .jumbotron {
-        padding-bottom: 132%;
-        margin-top: 0px;
-        padding-top: 24px;
-        margin-bottom: 25px;
-        color: inherit;
-        -webkit-box-shadow: 3px 3px 15px grey;
-        box-shadow: 3px 3px 15px grey;
+
+    .brainImg.jumbotron {
+        padding-top: 151%;
+        margin-top: 3px;
     }
         h2 {
             font-family: 'Julius Sans One', sans-serif;
@@ -170,5 +168,6 @@ h2 {
         padding-top: 8px;
         padding-bottom: 36px;
     }
-        }
 
+        }
+ 

@@ -52,7 +52,6 @@ export default class About extends Component {
                                         <Panel.Title toggle className="text"> Toolbelt</Panel.Title>
                                     </Panel.Heading>
                                     <Panel.Body collapsible>
-
                                         <li>HTML</li>
                                         <li>CSS</li>
                                         <li>JavaScript</li>

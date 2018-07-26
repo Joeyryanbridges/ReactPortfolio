@@ -29,7 +29,7 @@ h4 {
 
 
 /*768*/
-@media screen and (max-width:768px) {
+/* @media screen and (max-width:768px) {
     img-responsive, .thumbnail a>img, .thumbnail>img {
         display: block;
         max-width: 100%;
@@ -54,10 +54,10 @@ h4 {
         font-size: 3em;
     }
 
-}
+} */
 
 /*414*/
-@media screen and (max-width:414px) {
+/* @media screen and (max-width:414px) {
     .panel.panel-default {
         margin-bottom: 20px;
         margin-right: -28px;
@@ -74,10 +74,10 @@ h4 {
         height: auto;
         border-radius: 13px;
     }
-}
+} */
 
 /*375*/
-@media screen and (max-width:375px) {
+/* @media screen and (max-width:375px) {
 .panel.panel-default {
     margin-bottom: 20px;
     margin-right: -28px;
@@ -98,4 +98,4 @@ h4 {
     width: 100%;
     margin-left: -13px;
 }
-}
+} */

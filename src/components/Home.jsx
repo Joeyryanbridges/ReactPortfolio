@@ -7,15 +7,18 @@ export default class Home extends Component {
     render() {
         return (
             <Grid>
-                <Jumbotron>
-                    <br />
-                    <br />
-                    <br />
+                <Jumbotron className="brainImg">
                 </Jumbotron>
                 <div class="footer"><center className="iconsBaby">
-                    <Image src="giticon.png" className="githubIcon" to="https://github.com/Joeyryanbridges" />
-                    <Image src="linkedinIcon.png" className="linkedinIcon" href="https://github.com/Joeyryanbridges" />
-                    <Image src="SOFIcon.png" className="githubIcon" href="https://github.com/Joeyryanbridges" />
+                    <a href="https://github.com/Joeyryanbridges">
+                        <Image src="giticon.png" className="githubIcon" />
+                    </a>
+                    <a href="https://www.linkedin.com/in/joeyrbridges/">
+                        <Image src="linkedinIcon.png" className="linkedinIcon" />
+                    </a>
+                    <a href="https://stackoverflow.com/users/9178799/joeyryanbridges">
+                        <Image src="SOFIcon.png" className="githubIcon" />
+                    </a>
                 </center>
                 </div>
             </Grid>

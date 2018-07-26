@@ -79,6 +79,25 @@ p{
     font-family: 'Patrick Hand SC', cursive;
 }
 
+/*1200*/
+@media screen and (max-width: 1200px) {
+
+
+    .panel-group {
+        margin-left: -30px;
+        margin-right: 5px;
+        -webkit-box-shadow: 7px 6px 16px 3px grey;
+        box-shadow: 7px 6px 16px 3px grey;
+        border-radius: 16px;
+    }
+    .lowText {
+        margin-top: -14%;
+        margin-right: -57px;
+        margin-left: -90px;
+    }
+
+}
+
 /*980px*/
 
 @media screen and (max-width:980px) {
@@ -95,6 +114,7 @@ p{
         margin-bottom: 0px;
         padding-top: 11px;
         padding-right: 11px;
+
         padding-left: 11px;
         padding-bottom: 11px;
         margin-top: 0.3%;
@@ -104,7 +124,6 @@ p{
         box-shadow: 7px 6px 16px 3px grey;
         border-radius: 16px;
     }
-
     .lowText {
         margin-top: -21%;
         margin-right: 9px;
@@ -216,19 +235,17 @@ p{
         box-shadow: 9px 9px 9px grey;
     }
     .panel-group {
-    
-            -webkit-box-shadow: 7px 6px 16px 3px grey;
-            box-shadow: 7px 6px 16px 3px grey;
-            border-radius: 7px;
-            width: 108%;
-            margin-left: 1px;
-            margin-right: 7px;
-            background-image: linear-gradient(to bottom,#bfb3b3 0,#f8f8f8 100%);
+        margin-left: -10px;
+        background-color: floralwhite;
     }
 
     .col-xs-6 {
         width: 98%;
         margin-top: 0px;
+    }
+
+    p{
+        
     }
 
     .panel.panel-default {
