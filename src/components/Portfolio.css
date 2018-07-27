@@ -26,17 +26,12 @@ h4 {
     font-size: 2em;
 }
 
+.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
+    border-radius:10px;
+} 
 
-
-/*768*/
-/* @media screen and (max-width:768px) {
-    img-responsive, .thumbnail a>img, .thumbnail>img {
-        display: block;
-        max-width: 100%;
-        margin: auto;
-        height: 400px;
-    }
-
+/*960*/
+@media screen and (max-width:960px) {
     .panel.panel-default {
         margin-bottom: 13px;
         background-color: #f7f7f7;
@@ -54,13 +49,47 @@ h4 {
         font-size: 3em;
     }
 
-} */
+    .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
+            border-radius: 10px;
+            margin: auto;
+            width: 100%;
+    }
+
+        .col-xs-12 {
+            width: 100%;
+        }
+
+    } 
+
+
+
+/*768*/
+@media screen and (max-width:768px) {
+    .panel.panel-default {
+        margin-bottom: 13px;
+        background-color: #f7f7f7;
+        border: 9px solid transparent;
+        border-radius: 0px;
+        -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+        box-shadow: 0 1px 1px rgba(0,0,0,.05);
+        border-radius: 21px;
+        margin-right: 170px;
+        margin-left: 158px;
+        padding-left: 0px;
+    }
+    p {
+        font-family: 'Patrick Hand SC', cursive;
+        font-size: 3em;
+    }
+
+} 
 
 /*414*/
-/* @media screen and (max-width:414px) {
+@media screen and (max-width:414px) {
     .panel.panel-default {
-        margin-bottom: 20px;
-        margin-right: -28px;
+        margin-bottom: 26px;
+        margin-right: -9px;
+        margin-left: 11px;
         background-color: #f7f7f7;
         border: 9px solid transparent;
         border-radius: 0px;
@@ -68,16 +97,21 @@ h4 {
         box-shadow: 0 1px 1px rgba(0,0,0,.05);
         border-radius: 21px;
     }
-    .img-responsive, .thumbnail a>img, .thumbnail>img {
-        display: block;
-        max-width: 100%;
-        height: auto;
-        border-radius: 13px;
+
+    .col-xs-12 {
+        width: 100%;
+        margin-left: -13px;
     }
-} */
+
+    p {
+        font-family: 'Patrick Hand SC', cursive;
+        font-size: 1em;
+    }
+    
+}  
 
 /*375*/
-/* @media screen and (max-width:375px) {
+@media screen and (max-width:375px) {
 .panel.panel-default {
     margin-bottom: 20px;
     margin-right: -28px;
@@ -88,14 +122,9 @@ h4 {
     box-shadow: 0 1px 1px rgba(0,0,0,.05);
     border-radius: 21px;
 }
-.img-responsive, .thumbnail a>img, .thumbnail>img {
-    display: block;
-    max-width: 100%;
-    height: auto;
-    border-radius: 13px;
-}
+
 .col-xs-12 {
     width: 100%;
     margin-left: -13px;
 }
-} */
+} 
