@@ -70,9 +70,31 @@ body {
     margin-left: 25px;
 }
 
+/*1024px ipad pro*/
+@media screen and (max-width:1024px) {
+    .brainImg.jumbotron {
+        padding-top: 100%;
+        margin-top: 63px;
+    }
+
+    h2 {
+        font-size: 2.9em;
+    }
+    .footer {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        padding: 4rem;
+        background-color: #efefef;
+        text-align: center;
+    }
+
+}
+
 /*980px*/
 
-/* @media screen and (max-width:980px) {
+@media screen and (max-width:980px) {
 
 
 	.nav>li>a {
@@ -87,15 +109,30 @@ body {
         margin-left: -6px;
     }
     
-    } */
+    } 
 
 /*768PX*/
-/* @media screen and (max-width:768px) {
+@media screen and (max-width:768px) {
+
+    .brainImg.jumbotron {
+        padding-top: 136%;
+        margin-top: 12px;
+    }
+
     h2 {
         font-size: 2.9em;
     }
+    .footer {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        padding: 4rem;
+        background-color: #efefef;
+        text-align: center;
+    }
     
-    } */
+    } 
 
 
 /*640PX*/
@@ -110,17 +147,16 @@ body {
 
 /*414PX*/
 @media screen and (max-width:414px) {
-    .jumbotron {
-        padding-top: 30px; 
-        background-image: linear-gradient(to bottom,#847c7c 0,#f8f8f8 100%); 
-        padding-bottom: 30px;
-        margin-bottom: 30px;
-        color: inherit;
+    .brainImg.jumbotron {
+        padding-top: 131%;
+        margin-top: 3px;
     }
     .iconsBaby {
-            margin-top: 38px;
-            margin-right: 32px;
-        }
+        margin-top: 10px;
+        margin-right: 27px;
+        margin-bottom: 14px;
+        padding-top: 0px;
+    }
     h2 {
         font-family: 'Julius Sans One', sans-serif;
         text-shadow: 7px 3px 4px #a3a1a1;
@@ -128,13 +164,22 @@ body {
         color: rgb(48, 48, 48);
         margin-bottom: 51px;
     }
+    .footer {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        padding: 1rem;
+        background-color: #efefef;
+        text-align: center;
+      }
     }
 
 /*375PX*/
 @media screen and (max-width:375px) {
 
     .brainImg.jumbotron {
-        padding-top: 151%;
+        padding-top: 167%;
         margin-top: 3px;
     }
         h2 {
@@ -165,9 +210,39 @@ body {
     }
 
     .iconsBaby {
-        padding-top: 8px;
-        padding-bottom: 36px;
+        margin-top: 10px;
+        margin-right: 27px;
+        margin-bottom: 14px;
+        padding-top: 0px;
     }
 
         }
- 
+
+/*360PX*/
+@media screen and (max-width:360px) {
+    .brainImg.jumbotron {
+        padding-top: 124%;
+        margin-top: 3px;
+    }
+}
+
+/*411PX pixel 2 xl*/
+@media screen and (max-width:411px) {
+    .brainImg.jumbotron {
+        /* padding-top: 154%; */
+        margin-top: 3px;
+    }
+}
+
+/*320PX iphone 5/se*/
+@media screen and (max-width:320px) {
+    .brainImg.jumbotron {
+        padding-top: 123%;
+        margin-top: -6px;
+    }
+
+    .navbar-default .navbar-brand {
+        color: rgb(0, 0, 0);
+        font-size: 0.9em;
+    }
+}
