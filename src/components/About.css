@@ -205,10 +205,10 @@ p{
 
 @media screen and (max-width:414px) {
     .profile-pic {
-        height: 315px;
-        width: 330px;
-        margin-right: 6px;
-        margin-left: 26px;
+        height: 345px;
+        width: 381px;
+        margin-right: -5px;
+        margin-left: 1px;
         margin-top: -6px;
         -webkit-box-shadow: 5px 4px 9px grey;
         box-shadow: 9px 9px 9px grey;
@@ -261,5 +261,18 @@ p{
     .lowText {
         margin-right: 46px;
         font-size: 1.0em;
+    }
+}
+
+/*320px*/
+@media screen and (max-width:320px) {
+    .profile-pic {
+        height: 255px;
+        width: 282px;
+        margin-right: 6px;
+        margin-left: 4px;
+        margin-top: -6px;
+        -webkit-box-shadow: 5px 4px 9px grey;
+        box-shadow: 9px 9px 9px grey;
     }
 }
