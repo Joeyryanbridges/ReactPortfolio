@@ -115,7 +115,7 @@ body {
 @media screen and (max-width:768px) {
 
     .brainImg.jumbotron {
-        padding-top: 136%;
+        padding-top: 99%;
         margin-top: 12px;
     }
 
@@ -124,8 +124,8 @@ body {
     }
     .footer {
         position: absolute;
-        right: 0;
-        bottom: 0;
+        right: -7px;
+        bottom: -9px;
         left: 0;
         padding: 4rem;
         background-color: #efefef;
@@ -179,8 +179,9 @@ body {
 @media screen and (max-width:375px) {
 
     .brainImg.jumbotron {
-        padding-top: 167%;
+        padding-top: 129%;
         margin-top: 3px;
+        margin-right: 0px;
     }
         h2 {
             font-family: 'Julius Sans One', sans-serif;
