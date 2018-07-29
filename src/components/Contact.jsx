@@ -7,18 +7,6 @@ export default class Contact extends React.Component {
         super(props, context);
 
         this.handleChange = this.handleChange.bind(this);
-
-        this.state = {
-            value: ''
-        };
-    }
-
-    getValidationState() {
-        const length = this.state.value.length;
-        if (length > 10) return 'success';
-        else if (length > 5) return 'warning';
-        else if (length > 0) return 'error';
-        return null;
     }
 
     handleChange(e) {
