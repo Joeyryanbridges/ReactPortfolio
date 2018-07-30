@@ -1,26 +1,23 @@
 import React from 'react';
-import { FormControl, FormGroup, ControlLabel, Col, Form, Button } from 'react-bootstrap';
+import { Button, ButtonToolbar, Image, Row, Col } from 'react-bootstrap';
 import './Contact.css';
 
 export default class Contact extends React.Component {
-    constructor(props, context) {
-        super(props, context);
-
-        this.handleChange = this.handleChange.bind(this);
-    }
-
-    handleChange(e) {
-        this.setState({ value: e.target.value });
-    }
 
     render() {
         return (
-            <div className="container">
-                <Form horizontal>
-                    <FormGroup controlId="formHorizontalEmail">
+            <div>
+                <div className="container">
+                    <Row className="show-grid text-center">
+                        <Col xs={6} sm={8} className="contact-wrapper">
+                            <Image src="joeyface.jpg" className="joeyface" />
+                        </Col>
 
-                    </FormGroup>
-                </Form>
+                        <ButtonToolbar>
+                            <Button href="mailto:joeyryanbridges@gmail.com"><center>Email Joey</center></Button>
+                        </ButtonToolbar>
+                    </Row>
+                </div>
             </div>
         );
     }
