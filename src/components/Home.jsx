@@ -10,7 +10,6 @@ export default class Home extends Component {
                 <Jumbotron className="brainImg">
                 </Jumbotron>
                 <br />
-                <br />
                 <center><h2>Welcome to Joey R. Bridges Portfolio</h2></center>
                 <div class="footer"><center className="iconsBaby">
                     <a href="https://github.com/Joeyryanbridges">
