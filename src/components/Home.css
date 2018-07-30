@@ -23,7 +23,6 @@ body {
 
 .brainImg.jumbotron {
     background-image: url("../brain.png");
-    height: 100px; 
     background-size: cover;
     padding-top: 24%;
     padding-bottom: 3%;
@@ -145,6 +144,12 @@ body {
     }
 } 
 
+@media screen and (max-width: 411px) {
+    .brainImg.jumbotron {
+        margin-top: 34px;
+    }
+}
+
 /*414PX*/
 @media screen and (max-width:414px) {
     .brainImg.jumbotron {
@@ -179,15 +184,13 @@ body {
 @media screen and (max-width:375px) {
 
     .brainImg.jumbotron {
-        padding-top: 129%;
-        margin-top: 3px;
-        margin-right: 0px;
+        padding-top: 84%;
     }
         h2 {
             font-family: 'Julius Sans One', sans-serif;
             text-shadow: 7px 3px 4px #a3a1a1;
             font-size: 1.5em;
-            background-color: gray; 
+            /* background-color: gray;  */
     }
 
     .footer {
@@ -209,12 +212,11 @@ body {
         -webkit-box-shadow: 5px 4px 3px 1px grey;
         box-shadow: 2px 2px 3px 2px grey;
     }
-
     .iconsBaby {
-        margin-top: 10px;
+        margin-top: 12px;
         margin-right: 27px;
-        margin-bottom: 14px;
-        padding-top: 0px;
+        margin-bottom: 10px;
+        padding-top: -2px;
     }
 
         }
