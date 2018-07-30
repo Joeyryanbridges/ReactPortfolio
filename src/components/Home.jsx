@@ -11,6 +11,7 @@ export default class Home extends Component {
                 </Jumbotron>
                 <br />
                 <center><h2>Welcome to Joey R. Bridges Portfolio</h2></center>
+                <br />
                 <div class="footer"><center className="iconsBaby">
                     <a href="https://github.com/Joeyryanbridges">
                         <Image src="giticon.png" className="githubIcon" />
