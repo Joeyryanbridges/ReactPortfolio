@@ -6,6 +6,43 @@ a.btn.btn-default {
     margin-left: 71px;
 }
 
+/*iphone 6/7/8 plus*/
+@media screen and (width:414px) {
+    a.btn.btn-default {
+        margin-left: 96px;
+    }
+    .joeyface {
+        height: 366px;
+        width: 364px;
+        margin-right: 6px;
+        margin-left: 9px;
+        margin-top: 4px;
+        -webkit-box-shadow: 5px 4px 9px grey;
+        box-shadow: 9px 9px 9px grey;
+        border-radius: 15px;
+    }
+
+    .panel-group {
+        -webkit-box-shadow: 7px 6px 16px 3px grey;
+        box-shadow: 7px 6px 16px 3px grey;
+        border-radius: 16px;
+        width: 114%;
+        margin-top: 25px;
+        margin-left: -16px;
+        margin-right: 7px;
+    }
+
+    .person-wrapper.col-sm-4.col-xs-6 {
+        margin-left: 1px;
+        margin-right: 2px;
+        padding-left: 37px;
+    }
+
+    .col-xs-6 {
+        width: 91%;
+    }
+}
+
 @media screen and (width:375px) {
     a.btn.btn-default {
         margin-left: 50px;
@@ -67,29 +104,27 @@ a.btn.btn-default {
     }
 }
 
-@media screen and (width:414px) {
-    a.btn.btn-default {
-        margin-left: 96px;
+@media screen and (width:320px) {
+
+    .brainImg.jumbotron {
+        padding-top: 123%;
+        margin-top: 0px;
     }
+    
     .joeyface {
-        height: 366px;
-        width: 364px;
-        margin-right: 6px;
-        margin-left: 9px;
-        margin-top: 4px;
-        -webkit-box-shadow: 5px 4px 9px grey;
-        box-shadow: 9px 9px 9px grey;
+        width: 291px;
         border-radius: 15px;
+        margin-bottom: -12px;
     }
 
     .panel-group {
         -webkit-box-shadow: 7px 6px 16px 3px grey;
         box-shadow: 7px 6px 16px 3px grey;
         border-radius: 16px;
-        width: 114%;
+        width: 121%;
         margin-top: 25px;
-        margin-left: -16px;
-        margin-right: 7px;
+        margin-left: -23px;
+        margin-right: 3px;
     }
 
     .person-wrapper.col-sm-4.col-xs-6 {
@@ -102,3 +137,6 @@ a.btn.btn-default {
         width: 91%;
     }
 }
+
+
+

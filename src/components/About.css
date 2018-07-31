@@ -307,12 +307,13 @@ p{
 /*320px*/
 @media screen and (max-width:320px) {
     .profile-pic {
-        height: 255px;
+        height: 282px;
         width: 282px;
         margin-right: 6px;
         margin-left: 4px;
-        margin-top: -6px;
+        margin-top: 0px;
         -webkit-box-shadow: 5px 4px 9px grey;
         box-shadow: 9px 9px 9px grey;
     }
+
 }
