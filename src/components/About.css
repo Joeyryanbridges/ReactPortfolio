@@ -203,6 +203,7 @@ p{
     }
 }
 
+/*414*/
 @media screen and (max-width:414px) {
     .profile-pic {
         height: 381px;
@@ -227,9 +228,9 @@ p{
         -webkit-box-shadow: 7px 6px 16px 3px grey;
         box-shadow: 7px 6px 16px 3px grey;
         border-radius: 16px;
-        width: 108%;
+        width: 117%;
         margin-top: 25px;
-        margin-left: 1px;
+        margin-left: -20px;
         margin-right: 7px;
     }
 
@@ -248,14 +249,18 @@ p{
         width: 336px;
         margin-right: 6px;
         margin-left: 4px;
-        margin-top: -6px;
+        margin-top: 2px;
+        margin-bottom: -5px;
         -webkit-box-shadow: 5px 4px 9px grey;
         box-shadow: 9px 9px 9px grey;
         border-radius: 21px;
     }
     .panel-group {
-        margin-left: -10px;
+        margin-left: -21px;
         background-color: rgb(178, 178, 178);
+        padding-right: 20px;
+        padding-left: 28px;
+        width: 336px;
     }
 
     .iconsBaby {

@@ -16,7 +16,7 @@ a.btn.btn-default {
         width: 364px;
         margin-right: 6px;
         margin-left: 9px;
-        margin-top: 4px;
+        margin-top: 6px;
         -webkit-box-shadow: 5px 4px 9px grey;
         box-shadow: 9px 9px 9px grey;
         border-radius: 15px;
@@ -47,18 +47,18 @@ a.btn.btn-default {
     a.btn.btn-default {
         margin-left: 50px;
     }
-    .joeyface{
+    .joeyface {
         height: 323px;
         width: 336px;
         margin-right: 6px;
         margin-left: 4px;
-        margin-top: -6px;
+        margin-top: 5px;
         -webkit-box-shadow: 5px 4px 9px grey;
         box-shadow: 9px 9px 9px grey;
-        border-radius:15px;
+        border-radius: 15px;
     }
     .panel-group {
-        margin-left: -10px;
+        margin-left: -19px;
         background-color: rgb(178, 178, 178);
         padding-right: 28px;
         padding-left: 28px;
@@ -110,7 +110,7 @@ a.btn.btn-default {
         padding-top: 123%;
         margin-top: 0px;
     }
-    
+
     .joeyface {
         width: 291px;
         border-radius: 15px;
