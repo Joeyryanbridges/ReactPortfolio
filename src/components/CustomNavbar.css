@@ -2,11 +2,11 @@
     position: relative; 
     /* background-image: linear-gradient(to bottom,#847c7c 0,#f8f8f8 100%); */
     min-height: 50px;
-    margin-bottom: 20px;
+    margin-bottom: 99px;
     margin-top: 15px;
     padding-top: 12px;
     padding-bottom: 12px;
-    box-shadow: 3px 10  px 15px grey;
+    box-shadow: 3px 3px 15px grey;
 }
 
 .navbar-default .navbar-brand {
@@ -41,4 +41,10 @@
 .navbar-nav {
     margin: -5.5px -15px;
     margin: auto;
+}
+
+@media screen and (max-width:375px){
+    .navbar {
+        margin-bottom: 84px;
+    }
 }
