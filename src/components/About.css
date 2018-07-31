@@ -223,7 +223,7 @@ p{
         margin-right: 7px;
     }
 }
-
+/*375px*/
 @media screen and (max-width:375px) {
     .profile-pic {
         height: 323px;
@@ -236,16 +236,16 @@ p{
     }
     .panel-group {
         margin-left: -10px;
-        background-color: floralwhite;
+        background-color: rgb(178, 178, 178);
+    }
+
+    .person-wrapper.col-sm-4.col-xs-6 {
+        margin-left: 5px;
+        margin-right: 5px;
     }
 
     .col-xs-6 {
-        width: 98%;
-        margin-top: 0px;
-    }
-
-    p{
-        
+        width: 91%;
     }
 
     .panel.panel-default {
