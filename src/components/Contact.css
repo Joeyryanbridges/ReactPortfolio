@@ -8,7 +8,7 @@ a.btn.btn-default {
 
 @media screen and (width:375px) {
     a.btn.btn-default {
-        margin-left: 90px;
+        margin-left: 50px;
     }
     .joeyface{
         height: 323px;
@@ -50,10 +50,19 @@ a.btn.btn-default {
     .lowText {
         margin-right: 46px;
         font-size: 1.0em;
+        margin-left: 35px;
     }
 
     .row {
         margin-right: -22px;
         margin-left: -15px;
+    }
+
+    .footer {
+        position: initial;
+        padding: 1rem;
+        border-top-left-radius: 0%;
+        border-top-right-radius: 0%;
+        background-color:#c8c8c800; 
     }
 }

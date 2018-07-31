@@ -233,10 +233,30 @@ p{
         margin-top: -6px;
         -webkit-box-shadow: 5px 4px 9px grey;
         box-shadow: 9px 9px 9px grey;
+        border-radius: 21px;
     }
     .panel-group {
         margin-left: -10px;
         background-color: rgb(178, 178, 178);
+    }
+
+    .iconsBaby {
+        margin-top: 12px;
+        margin-right: 27px;
+        margin-bottom: 10px;
+        padding-top: -2px;
+    }
+
+    .panel-default>.panel-heading+.panel-collapse>.panel-body {
+        /* border-top-color: #969696; */
+        background-color: #5c2d0469;
+        margin-top: 8px;
+        border-radius: 15px;
+    }
+
+    a {
+        color: #000000c4;
+        /* text-decoration: none; */
     }
 
     .person-wrapper.col-sm-4.col-xs-6 {
@@ -262,6 +282,7 @@ p{
     .lowText {
         margin-right: 46px;
         font-size: 1.0em;
+        margin-left: 35px;
     }
 }
 
