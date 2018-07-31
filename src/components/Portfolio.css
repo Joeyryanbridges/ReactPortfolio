@@ -114,7 +114,7 @@ h4 {
 @media screen and (max-width:375px) {
 .panel.panel-default {
     margin-bottom: 20px;
-    margin-right: -28px;
+    margin-right: -14px;
     background-color: #f7f7f7;
     border: 9px solid transparent;
     border-radius: 0px;

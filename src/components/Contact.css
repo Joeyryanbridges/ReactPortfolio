@@ -1,0 +1,13 @@
+.joeyface {
+    width:314px;
+}
+
+a.btn.btn-default {
+    margin-left: 71px;
+}
+
+@media screen and (width:375px) {
+    a.btn.btn-default {
+        margin-left: 90px;
+    }
+}

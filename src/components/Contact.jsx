@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, ButtonToolbar, Image, Row, Col } from 'react-bootstrap';
+import { Button, ButtonToolbar, Image, Row, Col, PanelGroup, Panel } from 'react-bootstrap';
 import './Contact.css';
 
 export default class Contact extends React.Component {
@@ -13,12 +13,47 @@ export default class Contact extends React.Component {
                             <Image src="joeyface.jpg" className="joeyface" />
                         </Col>
 
-                        <ButtonToolbar>
-                            <Button href="mailto:joeyryanbridges@gmail.com"><center>Email Joey</center></Button>
-                        </ButtonToolbar>
+                        <Col xs={6} sm={4} className="person-wrapper">
+                            <PanelGroup accordion id="accordion-example">
+                                <Panel className="style-cards" eventKey="1">
+                                    <Panel.Heading>
+                                        <Panel.Title toggle className="text">Lets work together!</Panel.Title>
+                                    </Panel.Heading>
+                                    <Panel.Body collapsible>
+                                        <ButtonToolbar>
+                                            <Button href="mailto:joeyryanbridges@gmail.com"><center>Shoot me an email!</center></Button>
+                                        </ButtonToolbar>
+                                    </Panel.Body>
+                                </Panel>
+                                <Panel className="style-cards" eventKey="2">
+                                    <Panel.Heading>
+                                        <Panel.Title toggle className="text"> Give me a ring!</Panel.Title>
+                                    </Panel.Heading>
+                                    <Panel.Body collapsible>
+                                        <h5>520.262.7363</h5>
+                                    </Panel.Body>
+                                </Panel>
+                                <Panel className="style-cards" eventKey="3">
+                                    <Panel.Heading>
+                                        <Panel.Title toggle className="text">Follow me!</Panel.Title>
+                                    </Panel.Heading>
+                                    <Panel.Body collapsible>
+                                        <a href="https://www.instagram.com/joeyyryanbridges/?hl=en">IG: @joeyryanbridges</a>
+                                        <br />
+                                        <a href="https://www.facebook.com/joey.bridges.37">FaceBook: Joey Ryan Bridges</a>
+                                    </Panel.Body>
+                                </Panel>
+                            </PanelGroup>
+                            <br />
+                            <br />
+                            <br />
+                            <p className="lowText">*Click text in panel of your choice to view additional content!*</p>
+
+
+                        </Col>
                     </Row>
-                </div>
-            </div>
-        );
+                </div >
+            </div >
+        )
     }
 }

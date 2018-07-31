@@ -32,19 +32,19 @@ export default class About extends Component {
                                     <Panel.Body collapsible>
                                         <p>
                                             My name is Joey Bridges, and I am 30 years young. I currently reside in the city of Tucson
-                                               Arizona with my beautiful wife, two handsome boys, and my sweet daughter (which whom
-                                               will never date).
-                                    </p>
+                                            Arizona with my beautiful wife, two handsome boys, and my sweet daughter (which whom
+                                            will never date).
+                                        </p>
                                         <p> From the start of my journey at the University of Arizona's coding and Web Development
                                             program, I've gained a good deal of experience in programming in general, and in
-                                        working with JavaScript as a front and back end language in particular.</p>
+                                            working with JavaScript as a front and back end language in particular.</p>
                                         <p> I think that the ability to code gives you the tools and skills to have an impact, since
                                             technology and start-ups are changing the world at an incredible speed. For now,
                                             my aim is to become an awesome programmer. In the future, I will always have interest
-                                        in being involved in highly innovative projects. </p>
+                                            in being involved in highly innovative projects. </p>
                                         <p> In this new world of programming, Ill be keeping my mind set to exceed far beyond what
                                             I even knew I was capable of. Godspeed!
-                                    </p>
+                                        </p>
                                     </Panel.Body>
                                 </Panel>
                                 <Panel className="style-cards" eventKey="2">
