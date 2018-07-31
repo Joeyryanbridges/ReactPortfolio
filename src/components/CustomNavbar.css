@@ -48,3 +48,10 @@
         margin-bottom: 20px;
     }
 }
+
+/*414px*/
+@media screen and (max-width:414px){
+    .navbar {
+        margin-bottom: 13px;
+    }
+}

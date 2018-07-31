@@ -205,13 +205,23 @@ p{
 
 @media screen and (max-width:414px) {
     .profile-pic {
-        height: 345px;
-        width: 381px;
+        height: 381px;
+        width: 384px;
         margin-right: -5px;
         margin-left: 1px;
-        margin-top: -6px;
+        margin-top: 7px;
         -webkit-box-shadow: 5px 4px 9px grey;
         box-shadow: 9px 9px 9px grey;
+        border-radius: 21px;
+    }
+
+    .footer {
+        position: initial; 
+        padding: 1rem;
+        border-top-left-radius: 71px;
+        border-top-right-radius: 71px;
+        margin-bottom: 0px;
+        background-color: #80808000;
     }
     .panel-group {
         -webkit-box-shadow: 7px 6px 16px 3px grey;
@@ -221,6 +231,14 @@ p{
         margin-top: 25px;
         margin-left: 1px;
         margin-right: 7px;
+    }
+
+    .lowText {
+        margin-top: -40px;
+        margin-right: 39px;
+        margin-left: 69px;
+        /* margin-right: 154px; */
+        /* font-size: 1.0em; */
     }
 }
 /*375px*/

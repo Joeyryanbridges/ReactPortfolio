@@ -107,6 +107,12 @@ h4 {
         font-family: 'Patrick Hand SC', cursive;
         font-size: 1em;
     }
+
+    h4 {
+        font-family: 'Patrick Hand SC', cursive;
+        font-size: 2em;
+        margin-left: 28px;
+    }
     
 }  
 

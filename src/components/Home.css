@@ -148,33 +148,45 @@ body {
 
 /*414PX*/
 @media screen and (max-width:414px) {
+
     .brainImg.jumbotron {
-        padding-top: 131%;
-        margin-top: 3px;
-    }
-    .iconsBaby {
-        margin-top: 10px;
-        margin-right: 27px;
-        margin-bottom: 14px;
-        padding-top: 0px;
+        padding-top: 110%;
+        padding-bottom: 23px;
+        border-radius: 15px;
     }
     h2 {
-        font-family: 'Julius Sans One', sans-serif;
-        text-shadow: 7px 3px 4px #a3a1a1;
-        font-size: 24px;
-        color: rgb(48, 48, 48);
-        margin-bottom: 51px;
+            font-family: 'Julius Sans One', sans-serif;
+            text-shadow: 7px 3px 4px #a3a1a1;
+            font-size: 1.5em;
+            /* background-color: gray;  */
     }
+
     .footer {
-        position: absolute;
-        right: 0;
-        bottom: 0;
-        left: 0;
         padding: 1rem;
-        background-color: #efefef;
-        text-align: center;
-      }
+        border-top-left-radius: 71px;
+        border-top-right-radius: 71px;
+        margin-bottom: 0px;
+        background-color: #80808000;
     }
+    
+
+    .home-pic {
+        height: 291px;
+        width: 1015px;
+        margin-top: 25px;
+        border-radius: 25px;
+        -webkit-box-shadow: 5px 4px 3px 1px grey;
+        box-shadow: 2px 2px 3px 2px grey;
+    }
+    .iconsBaby {
+        margin-top: 12px;
+        margin-right: 27px;
+        margin-bottom: 23px;
+        padding-top: -2px;
+    }
+
+        }
+
 
 /*375PX*/
 @media screen and (max-width:375px) {
