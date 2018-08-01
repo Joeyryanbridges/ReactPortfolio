@@ -293,3 +293,18 @@ body {
         margin-bottom: 10px;
     }
 }
+
+/*galaxy s5*/
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) {
+    .brainImg.jumbotron {
+        padding-top: 106%;
+        margin-top: -1px;
+    }
+
+    center.iconsBaby {
+        position: initial;
+        margin-top: 23px;
+        margin-right: 64px;
+        margin-bottom: 6px;
+    }
+}

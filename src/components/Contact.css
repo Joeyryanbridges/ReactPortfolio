@@ -174,3 +174,28 @@ a.btn.btn-default {
             }
 
         }
+
+        /*galaxy s5*/
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) {
+    .joeyface {
+        height: 334px;
+        width: 345px;
+        margin-right: 6px;
+        margin-left: -1px;
+        margin-top: 5px;
+        -webkit-box-shadow: 5px 4px 9px grey;
+        box-shadow: 9px 9px 9px grey;
+        border-radius: 15px;
+    }
+
+    .joeyface {
+        height: 324px;
+        width: 329px;
+        margin-right: 6px;
+        margin-left: -1px;
+        margin-top: 5px;
+        -webkit-box-shadow: 5px 4px 9px grey;
+        box-shadow: 9px 9px 9px grey;
+        border-radius: 15px;
+    }
+}
