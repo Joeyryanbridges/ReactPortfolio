@@ -148,3 +148,29 @@ a.btn.btn-default {
         width: 91%;
     }
 }
+
+
+        /*iphoneX */
+        @media only screen 
+        and (device-width : 375px) 
+        and (device-height : 812px) 
+        and (-webkit-device-pixel-ratio : 3) { 
+            .joeyface {
+                height: 323px;
+                width: 336px;
+                margin-right: 6px;
+                margin-left: 4px;
+                margin-top: 0px;
+                -webkit-box-shadow: 5px 4px 9px grey;
+                box-shadow: 9px 9px 9px grey;
+                border-radius: 15px;
+            }
+    
+            .panel-group {
+                margin-left: -19px;
+                background-color: rgb(178, 178, 178);
+                padding-right: 12px;
+                padding-left: 12px;
+            }
+
+        }

@@ -186,6 +186,36 @@ body {
     }
         }
 
+        /*iphoneX */
+@media only screen 
+    and (device-width : 375px) 
+    and (device-height : 812px) 
+    and (-webkit-device-pixel-ratio : 3) { 
+        .brainImg.jumbotron {
+                padding-top: 115%;
+                padding-bottom: 23px;
+        }
+        h1 {
+            font-family: 'Julius Sans One', sans-serif;
+            text-shadow: 7px 3px 4px #a3a1a1;
+            font-size: 2.5em;
+            margin-top: 52px;
+            margin-bottom: 88px;
+            /* background-color: gray; */
+        }
+        .profile-pic {
+            height: 350px;
+            width: 336px;
+            margin-right: 6px;
+            margin-left: 4px;
+            margin-top: -14px;
+            margin-bottom: -5px;
+            -webkit-box-shadow: 5px 4px 9px grey;
+            box-shadow: 9px 9px 9px grey;
+            border-radius: 21px;
+        }
+    }
+
 
 /*375PX*/
 @media screen and (max-width:375px) {

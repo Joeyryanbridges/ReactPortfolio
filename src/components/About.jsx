@@ -21,7 +21,7 @@ export default class About extends Component {
                 <div className="container">
                     <Row className="show-grid text-center">
                         <Col xs={6} sm={8} className="person-wrapper">
-                            <Image src="family.jpg" className="profile-pic" />
+                            <Image src="family.jpg" className="family-pic" />
                         </Col>
                         <Col xs={6} sm={4} className="person-wrapper">
                             <PanelGroup accordion id="accordion-example">
