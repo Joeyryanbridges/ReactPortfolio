@@ -1,9 +1,10 @@
 .profile-pic {
     height: 550px;
-    width: 600px;
+    width: 555px;
     margin-right: 86px;
     -webkit-box-shadow: 5px 4px 9px grey;
     box-shadow: 9px 9px 9px grey;
+    border-radius: 15px;
 }
 
 #accordion-example-heading-1.panel-heading {
@@ -77,6 +78,13 @@
 
 p{
     font-family: 'Patrick Hand SC', cursive;
+}
+
+.iconsBaby {
+    margin-top: -18px;
+    float: right;
+    margin-right: 163px;
+    /* margin-bottom: -1px; */
 }
 
 /*1200*/

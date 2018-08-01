@@ -219,14 +219,8 @@ body {
         -webkit-box-shadow: 5px 4px 3px 1px grey;
         box-shadow: 2px 2px 3px 2px grey;
     }
-    .iconsBaby {
-        margin-top: 12px;
-        margin-right: 27px;
-        margin-bottom: 10px;
-        padding-top: -2px;
+ 
     }
-
-        }
 
 /*360PX*/
 @media screen and (max-width:360px) {
