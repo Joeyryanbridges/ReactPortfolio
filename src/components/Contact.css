@@ -12,10 +12,10 @@ a.btn.btn-default {
         margin-left: 96px;
     }
     .joeyface {
-        height: 366px;
-        width: 364px;
+        height: 388px;
+        width: 383px;
         margin-right: 6px;
-        margin-left: 9px;
+        margin-left: 0px;
         margin-top: 6px;
         -webkit-box-shadow: 5px 4px 9px grey;
         box-shadow: 9px 9px 9px grey;
@@ -26,9 +26,9 @@ a.btn.btn-default {
         -webkit-box-shadow: 7px 6px 16px 3px grey;
         box-shadow: 7px 6px 16px 3px grey;
         border-radius: 16px;
-        width: 114%;
+        width: 118%;
         margin-top: 25px;
-        margin-left: -16px;
+        margin-left: -24px;
         margin-right: 7px;
     }
 

@@ -44,9 +44,9 @@ export default class Contact extends React.Component {
                             </Panel>
                         </PanelGroup>
                         <br />
-                        <br />
-                        <br />
-                        <p className="lowText">*Click text in panel of your choice to view additional content!*</p>
+                        {/* <br />
+                        <br /> */}
+                        {/* <p className="lowText">*Click text in panel of your choice to view additional content!*</p> */}
                     </Col>
                 </Row>
                 <div className="footer"><center className="iconsBaby">

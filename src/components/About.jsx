@@ -98,9 +98,9 @@ export default class About extends Component {
                                 </Panel>
                             </PanelGroup>
                             <br />
+                            {/* <br />
                             <br />
-                            <br />
-                            <p className="lowText">*Click text in panel of your choice to view additional content!*</p>
+                            <p className="lowText">*Click text in panel of your choice to view additional content!*</p> */}
 
 
                         </Col>
