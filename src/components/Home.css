@@ -178,13 +178,12 @@ body {
         -webkit-box-shadow: 5px 4px 3px 1px grey;
         box-shadow: 2px 2px 3px 2px grey;
     }
-    .iconsBaby {
-        margin-top: 12px;
-        margin-right: 27px;
-        margin-bottom: 23px;
-        padding-top: -2px;
+    center.iconsBaby {
+        position: initial;
+        margin-top: 26px;
+        margin-right: 93px;
+        margin-bottom: 60px;
     }
-
         }
 
 
@@ -219,6 +218,13 @@ body {
         -webkit-box-shadow: 5px 4px 3px 1px grey;
         box-shadow: 2px 2px 3px 2px grey;
     }
+
+   center.iconsBaby {
+        position: initial;
+        margin-top: 26px;
+        margin-right: 71px;
+        margin-bottom: 10px;
+    }
  
     }
 
@@ -248,5 +254,12 @@ body {
     .navbar-default .navbar-brand {
         color: rgb(0, 0, 0);
         font-size: 0.9em;
+    }
+
+    center.iconsBaby {
+        position: initial;
+        margin-top: 26px;
+        margin-right: 49px;
+        margin-bottom: 10px;
     }
 }
