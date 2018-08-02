@@ -380,20 +380,27 @@ img.linkedinIcon {
         /* padding-top: 154%; */
         margin-top: 3px;
     }
-    .githubIcon {
+    img.githubIcon {
         height: 35px;
         width: 35px;
         margin-left: 25px;
     }
-    .linkedinIcon {
+    img.linkedinIcon {
         height: 35px;
         width: 35px;
         margin-left: 25px;
     }
-     .SOFIcon {
+     img.SOFIcon {
         height: 35px;
         width: 35px;
         margin-left: 25px;
+    }
+}
+
+@media screen and (width: 320px) {
+    .brainImg.jumbotron {
+        padding-top: 108%;
+        margin-top: 8px;
     }
 }
 
