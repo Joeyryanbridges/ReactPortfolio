@@ -7,7 +7,7 @@ body {
 
 center.iconsBaby {
     margin-top: 15px;
-    margin-right: 22px;
+    margin-right: 152px;
 }
 
 .home-pic {
@@ -55,23 +55,26 @@ center.iconsBaby {
     padding-top: 151px;
     padding-left: 28px;
     margin-bottom: 55px;
+    font-family: 'Patrick Hand SC', cursive;
+    font-size: 3em;
 }
 
-.githubIcon {
-    height: 35px;
-    width: 35px;
+img.githubIcon {
+    height: 70px;
+    width: 70px;
     margin-left: 25px;
 }
-.linkedinIcon {
-    height: 35px;
-    width: 35px;
+img.linkedinIcon {
+    height: 70px;
+    width: 70px;
     margin-left: 25px;
 }
- .SOFIcon {
-    height: 35px;
-    width: 35px;
+ img.SOFIcon {
+    height: 70px;
+    width: 70px;
     margin-left: 25px;
 }
+
 @media all and (min-width: 1024px) and (max-width: 1280px) { 
     .brainImg.jumbotron {
         padding-top: 100%;

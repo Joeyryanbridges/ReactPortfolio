@@ -28,20 +28,26 @@
     border-radius: 14px;
 }
 
-.navbar-brand {
-    float: left;
-    color:black; 
-    height: 50px;
+a.navbar-brand {
+    /* float: left; */
+    color: black;
+    /* height: 47px; */
     padding: 15px 15px;
-    font-size: 18px;
-    line-height: 20px;
+    font-size: 21px;
+    line-height: 53px;
     font-family: 'Cutive Mono', monospace;
-    margin-left: 10px;
+    margin-right: -7px;
 }
 
 .navbar-nav {
-    margin: -5.5px -15px;
-    margin: auto;
+    /* float: left; */
+    color: black;
+    /* height: 47px; */
+    padding: 15px 15px;
+    font-size: 18px;
+    line-height: 69px;
+    font-family: 'Cutive Mono', monospace;
+    margin-right: 19px;
 }
 
 /*414px*/
