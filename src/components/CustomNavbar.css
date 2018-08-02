@@ -1,18 +1,11 @@
 .navbar {
     position: relative;
-<<<<<<< HEAD
-    margin-bottom: 28px;
-    margin-top: 60px;
-    padding-top: 13px;
-    padding-bottom: 20px;
-=======
     /* background-image: linear-gradient(to bottom,#847c7c 0,#f8f8f8 100%); */
     min-height: 50px;
     margin-bottom: 30px;
     margin-top: 15px;
     padding-top: 12px;
     padding-bottom: 12px;
->>>>>>> cb6818cffb9c0b0797bec15e5c831bfab75b96c2
     -webkit-box-shadow: 3px 3px 15px grey;
     box-shadow: 3px 3px 15px grey;
 }

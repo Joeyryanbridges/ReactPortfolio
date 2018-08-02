@@ -397,25 +397,15 @@ center.iconsBaby {
 /*320PX iphone 5/se*/
 @media screen and (max-width:320px) {
     .brainImg.jumbotron {
-<<<<<<< HEAD
-        padding-top: 64%;
-        width: 291px;
-        margin-bottom: 20px;
-        height: 335px;
-        margin-top: 9px;
-        padding-right: 21px;
-        border-radius: 5px;
-        /* padding-left: 10px; */
-=======
-        padding-top: 103%;
-        margin-top: 0px;
->>>>>>> cb6818cffb9c0b0797bec15e5c831bfab75b96c2
+        padding-top: 111%;
+        margin-top: 7px;
+        width: 292px;
+        margin-bottom: 12px;
     }
     .navbar-default .navbar-brand {
         color: rgb(0, 0, 0);
         font-size: 0.9em;
     }
-<<<<<<< HEAD
     .githubIcon {
         height: 35px;
         width: 35px;
@@ -435,21 +425,13 @@ center.iconsBaby {
         font-family: 'Patrick Hand SC', cursive;
         font-size: 2em;
         margin-right: 12px;
+        margin-top: 10px;
     }
-
-center.iconsBaby {
-    margin-top: -47px;
-    margin-right: 6px;
-}
-=======
 
     center.iconsBaby {
-        position: initial;
-        margin-top: 26px;
+        margin-top: -28px;
         margin-right: 49px;
-        margin-bottom: 10px;
     }
->>>>>>> cb6818cffb9c0b0797bec15e5c831bfab75b96c2
 }
 
 /*galaxy s5*/
