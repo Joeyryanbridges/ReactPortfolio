@@ -1,10 +1,13 @@
 body {
     background-color: #e0e0e0;
      color: #420000;
+     background-image: url(/Building.JPG);
+     background-size: cover;
 } 
 
-.iconsBaby {
+center.iconsBaby {
     margin-top: 15px;
+    margin-right: 22px;
 }
 
 .home-pic {
@@ -18,16 +21,18 @@ body {
 
 
 .brainImg.jumbotron {
-    background-image: url("/me.JPG");
+    background-image: url(/me.JPG);
     background-size: cover;
-    padding-top: 24%;
-    padding-bottom: 3%;
+    padding-top: 23%;
+    width: 50%;
+    padding-bottom: 30%;
+    float: left;
     margin-bottom: 0px;
     margin-top: 14px;
     color: inherit;
     background-color: #f5f5f5;
     -webkit-box-shadow: 3px 3px 15px grey;
-    box-shadow: 3px 3px 15px grey; 
+    box-shadow: 3px 3px 15px grey;
 }
 
 .btn-default {
@@ -44,29 +49,30 @@ body {
     margin-bottom: 1%;
 }
 
-/* h2 {
-    font-family: 'Julius Sans One', sans-serif;
-    text-shadow: 7px 3px 4px #a3a1a1;
-} */
+.h1, h1 {
+    font-size: 30px;
+    position: initial;
+    padding-top: 151px;
+    padding-left: 28px;
+    margin-bottom: 55px;
+}
 
 .githubIcon {
-    height: 40px;
-    width: 40px;
+    height: 35px;
+    width: 35px;
     margin-left: 25px;
 }
 .linkedinIcon {
-    height: 40px;
-    width: 40px;
+    height: 35px;
+    width: 35px;
     margin-left: 25px;
 }
  .SOFIcon {
-    height: 40px;
-    width: 40px;
+    height: 35px;
+    width: 35px;
     margin-left: 25px;
 }
-
-/*1024px ipad pro*/
-@media screen and (max-width:1024px) {
+@media all and (min-width: 1024px) and (max-width: 1280px) { 
     .brainImg.jumbotron {
         padding-top: 100%;
         margin-top: 63px;
@@ -86,6 +92,28 @@ body {
     }
 
 }
+
+/*1024px ipad pro*/
+/* @media screen and (max-width:1024px) {
+    .brainImg.jumbotron {
+        padding-top: 100%;
+        margin-top: 63px;
+    }
+
+    h2 {
+        font-size: 2.9em;
+    }
+    .footer {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        padding: 4rem;
+        background-color: #efefef;
+        text-align: center;
+    }
+
+} */
 
 /*980px*/
 
@@ -130,8 +158,8 @@ body {
     } 
 
 
-/*640PX*/
-@media screen and (max-width:640px) { 
+/*635PX*/
+@media screen and (max-width:635px) { 
     h2 {
         font-size: 2.7em;
     }
@@ -187,6 +215,22 @@ body {
 
         }
 
+        .githubIcon {
+            height: 35px;
+            width: 35px;
+            margin-left: 25px;
+        }
+        .linkedinIcon {
+            height: 35px;
+            width: 35px;
+            margin-left: 25px;
+        }
+         .SOFIcon {
+            height: 35px;
+            width: 35px;
+            margin-left: 25px;
+        }
+
 
 /*375PX*/
 @media screen and (max-width:375px) {
@@ -228,11 +272,72 @@ body {
 
         }
 
+        .githubIcon {
+            height: 35px;
+            width: 35px;
+            margin-left: 25px;
+        }
+        .linkedinIcon {
+            height: 35px;
+            width: 35px;
+            margin-left: 25px;
+        }
+         .SOFIcon {
+            height: 35px;
+            width: 35px;
+            margin-left: 25px;
+        }
+        /*iphone*/
+    @media only screen 
+    and (device-width : 375px) 
+    and (device-height : 812px) 
+    and (-webkit-device-pixel-ratio : 3) {
+        .iconsBaby {
+            margin-top: 126px;
+            margin-right: 27px;
+            margin-bottom: 10px;
+            padding-top: -2px;
+        }
+        .githubIcon {
+            height: 35px;
+            width: 35px;
+            margin-left: 25px;
+        }
+        .linkedinIcon {
+            height: 35px;
+            width: 35px;
+            margin-left: 25px;
+        }
+         .SOFIcon {
+            height: 35px;
+            width: 35px;
+            margin-left: 25px;
+        }
+
+     }
+
+     
+
 /*360PX*/
 @media screen and (max-width:360px) {
     .brainImg.jumbotron {
         padding-top: 124%;
         margin-top: 3px;
+    }
+    .githubIcon {
+        height: 35px;
+        width: 35px;
+        margin-left: 25px;
+    }
+    .linkedinIcon {
+        height: 35px;
+        width: 35px;
+        margin-left: 25px;
+    }
+     .SOFIcon {
+        height: 35px;
+        width: 35px;
+        margin-left: 25px;
     }
 }
 
@@ -242,17 +347,62 @@ body {
         /* padding-top: 154%; */
         margin-top: 3px;
     }
+    .githubIcon {
+        height: 35px;
+        width: 35px;
+        margin-left: 25px;
+    }
+    .linkedinIcon {
+        height: 35px;
+        width: 35px;
+        margin-left: 25px;
+    }
+     .SOFIcon {
+        height: 35px;
+        width: 35px;
+        margin-left: 25px;
+    }
 }
 
 /*320PX iphone 5/se*/
 @media screen and (max-width:320px) {
     .brainImg.jumbotron {
-        padding-top: 123%;
-        margin-top: -6px;
+        padding-top: 64%;
+        width: 291px;
+        margin-bottom: 20px;
+        height: 335px;
+        margin-top: 9px;
+        padding-right: 21px;
+        border-radius: 5px;
+        /* padding-left: 10px; */
     }
-
     .navbar-default .navbar-brand {
         color: rgb(0, 0, 0);
         font-size: 0.9em;
     }
+    .githubIcon {
+        height: 35px;
+        width: 35px;
+        margin-left: 25px;
+    }
+    .linkedinIcon {
+        height: 35px;
+        width: 35px;
+        margin-left: 25px;
+    }
+     .SOFIcon {
+        height: 35px;
+        width: 35px;
+        margin-left: 25px;
+    }
+    .h1, h1 {
+        font-family: 'Patrick Hand SC', cursive;
+        font-size: 2em;
+        margin-right: 12px;
+    }
+
+center.iconsBaby {
+    margin-top: -47px;
+    margin-right: 6px;
+}
 }
