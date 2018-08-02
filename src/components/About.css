@@ -1,9 +1,10 @@
 .profile-pic {
     height: 550px;
-    width: 600px;
+    width: 555px;
     margin-right: 86px;
     -webkit-box-shadow: 5px 4px 9px grey;
     box-shadow: 9px 9px 9px grey;
+    border-radius: 15px;
 }
 
 #accordion-example-heading-1.panel-heading {
@@ -77,6 +78,13 @@
 
 p{
     font-family: 'Patrick Hand SC', cursive;
+}
+
+.iconsBaby {
+    margin-top: -18px;
+    float: right;
+    margin-right: 163px;
+    /* margin-bottom: -1px; */
 }
 
 /*1200*/
@@ -205,9 +213,9 @@ p{
 
 /*414*/
 @media screen and (max-width:414px) {
-    .profile-pic {
-        height: 381px;
-        width: 384px;
+    .family-pic {
+        height: 392px;
+        width: 382px;
         margin-right: -5px;
         margin-left: 1px;
         margin-top: 7px;
@@ -244,11 +252,11 @@ p{
 }
 /*375px*/
 @media screen and (max-width:375px) {
-    .profile-pic {
-        height: 323px;
-        width: 336px;
+    .family-pic {
+        height: 346px;
+        width: 345px;
         margin-right: 6px;
-        margin-left: 4px;
+        margin-left: -2px;
         margin-top: 2px;
         margin-bottom: -5px;
         -webkit-box-shadow: 5px 4px 9px grey;
@@ -256,11 +264,13 @@ p{
         border-radius: 21px;
     }
     .panel-group {
-        margin-left: -21px;
+        margin-left: -17px;
+        /* margin-right: 14px; */
+        width: 338px;
         background-color: rgb(178, 178, 178);
-        padding-right: 20px;
-        padding-left: 28px;
-        width: 336px;
+        padding-right: 8px;
+        padding-left: 6px;
+        padding-bottom: 1px;
     }
 
     .iconsBaby {
@@ -311,14 +321,77 @@ p{
 
 /*320px*/
 @media screen and (max-width:320px) {
-    .profile-pic {
-        height: 282px;
-        width: 282px;
+    .family-pic {
+        height: 303px;
+        width: 293px;
         margin-right: 6px;
-        margin-left: 4px;
+        margin-left: -2px;
         margin-top: 0px;
         -webkit-box-shadow: 5px 4px 9px grey;
         box-shadow: 9px 9px 9px grey;
     }
 
+}
+
+/*iphoneX */
+@media only screen 
+and (device-width : 375px) 
+and (device-height : 812px) 
+and (-webkit-device-pixel-ratio : 3) {
+
+    .panel-group {
+        margin-left: -19px;
+        background-color: rgb(178, 178, 178);
+        padding-right: 12px;
+        padding-left: 12px;
+    }
+
+    @media screen and (max-width: 375px) {
+.family-pic {
+    height: 353px;
+    width: 336px;
+    margin-right: 6px;
+    margin-left: 4px;
+    margin-top: 0px;
+    margin-bottom: -5px;
+    -webkit-box-shadow: 5px 4px 9px grey;
+    box-shadow: 9px 9px 9px grey;
+    border-radius: 21px;
+}
+
+}
+
+}
+
+/*galaxy s5*/
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) {
+    .family-pic {
+        height: 339px;
+        width: 329px;
+        margin-right: 6px;
+        margin-left: 0px;
+        margin-top: 2px;
+        margin-bottom: -5px;
+        -webkit-box-shadow: 5px 4px 9px grey;
+        box-shadow: 9px 9px 9px grey;
+        border-radius: 21px;
+    }
+
+    .panel-group {
+        margin-left: -11px;
+        width: 329px;
+        background-color: rgb(178, 178, 178);
+        padding-right: 8px;
+        padding-left: 6px;
+        padding-bottom: 1px;
+    }
+
+    center.iconsBaby {
+        position: initial;
+        margin-top: 15px;
+        margin-right: 64px;
+        margin-bottom: 7px;
+        padding-bottom: 12px;
+    }
+   
 }
