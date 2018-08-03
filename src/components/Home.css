@@ -1,8 +1,8 @@
 body {
     background-color: #e0e0e0;
      color: #420000;
-     background-image: url(/Building.JPG);
-     background-size: cover;
+     background-image: url(/background.JPG); 
+
 } 
 
 center.iconsBaby {
@@ -77,12 +77,15 @@ img.linkedinIcon {
 
 @media all and (min-width: 1024px) and (max-width: 1280px) { 
     .brainImg.jumbotron {
-        padding-top: 100%;
-        margin-top: 63px;
+        padding-top: 13%;
+        margin-top: 7px;
+        margin-left: 2%;
+        width: 46%;
     }
-
-    h2 {
-        font-size: 2.9em;
+    h1 {
+       
+        font-size: 3.5em;
+        color: black;
     }
     .footer {
         position: absolute;
@@ -90,11 +93,35 @@ img.linkedinIcon {
         bottom: 0;
         left: 0;
         padding: 4rem;
-        background-color: #efefef;
+        background-color: transparent;
         text-align: center;
     }
 
-}
+    center.iconsBaby {
+        margin-top: 15px;
+        margin-right: 121px;
+        margin-bottom: 11%;
+    }
+
+    img.githubIcon {
+        height: 70px;
+        width: 70px;
+        margin-left: 25px;
+    }
+    img.linkedinIcon {
+        height: 70px;
+        width: 70px;
+        margin-left: 102px;
+        margin-right: 76px;
+    }
+     img.SOFIcon {
+        height: 70px;
+        width: 70px;
+        margin-left: 25px;
+    }
+    }
+
+
 
 /*1024px ipad pro*/
 /* @media screen and (max-width:1024px) {
@@ -107,7 +134,7 @@ img.linkedinIcon {
         font-size: 2.9em;
     }
     .footer {
-        position: absolute;
+        position: initial;
         right: 0;
         bottom: 0;
         left: 0;
@@ -116,7 +143,7 @@ img.linkedinIcon {
         text-align: center;
     }
 
-} */
+}  */
 
 /*980px*/
 

@@ -1,9 +1,9 @@
-.profile-pic {
-    height: 550px;
+.family-pic {
+    height: 580px;
     width: 555px;
-    margin-right: 86px;
+    margin-right: 193px;
     -webkit-box-shadow: 5px 4px 9px grey;
-    box-shadow: 9px 9px 9px grey;
+    box-shadow: 9px 9px 9px #414141;
     border-radius: 15px;
 }
 
