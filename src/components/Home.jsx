@@ -19,7 +19,7 @@ export default class Home extends Component {
                         <Image src="linkedinIcon.png" className="linkedinIcon" />
                     </a>
                     <a href="https://stackoverflow.com/users/9178799/joeyryanbridges">
-                        <Image src="SOFIcon.png" className="githubIcon" />
+                        <Image src="SOFIcon.png" className="SOFIcon" />
                     </a>
                 </center>
                 </div>
