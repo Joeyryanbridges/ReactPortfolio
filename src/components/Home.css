@@ -2,8 +2,12 @@ body {
     background-color: #e0e0e0;
      color: #420000;
      background-image: url(/background.JPG); 
+     height: 100%; 
      background-size: cover;
-
+     background-repeat: no-repeat;
+     position: relative;
+     margin: 0px;
+     padding: 0px;
 } 
 
 h1 {
@@ -13,8 +17,9 @@ h1 {
 }
 
 center.iconsBaby {
-    margin-top: 15px;
-    margin-right: 152px;
+    margin: 1% 18% 15% 1%; 
+    position: initial;
+
 }
 
 .home-pic {
@@ -31,9 +36,10 @@ center.iconsBaby {
     background-image: url(/me.JPG);
     background-size: cover;
     padding-top: 23%;
-    width: 50%;
-    padding-bottom: 30%;
+    width: 47%;
+    padding-bottom: 27%;
     float: left;
+    margin-right: 15%;
     margin-bottom: 0px;
     margin-top: 14px;
     color: inherit;
@@ -64,6 +70,16 @@ center.iconsBaby {
     margin-bottom: 55px;
     font-family: 'Cutive Mono', monospace;
     font-size: 3em;
+}
+
+div.footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 4rem;
+    background-color: transparent;
+    text-align: center;
 }
 
 img.githubIcon {
@@ -116,11 +132,11 @@ img.linkedinIcon {
         text-align: center;
     }
 
-    center.iconsBaby {
+    /* center.iconsBaby {
         margin-top: -71px;
         position: fixed;
         margin-left: 25%;
-    }
+    } */
 
     img.githubIcon {
         height: 70px;
@@ -143,7 +159,7 @@ img.linkedinIcon {
 
     /*768px*/
 
-@media screen and (max-width:768px) {
+    @media only screen and (min-width:581px) and (max-width:768px) {
 
     ul.nav.navbar-nav.navbar-right {
         margin-right: -5px;
@@ -175,11 +191,11 @@ img.linkedinIcon {
         text-align: center;
     }
 
-    center.iconsBaby {
+    /* center.iconsBaby {
         margin-top: -71px;
         position: fixed;
         margin-left: 25%;
-    }
+    } */
 
     img.githubIcon {
         height: 70px;
@@ -213,7 +229,7 @@ img.linkedinIcon {
 
         /*640px*/
 
-@media screen and (max-width:640px) {
+        @media only screen and (min-width:321px) and (max-width:580px) {
 
     ul.nav.navbar-nav.navbar-right {
         margin-right: -5px;
@@ -222,12 +238,13 @@ img.linkedinIcon {
 
 
     div.brainImg.jumbotron {
-        padding-top: 23%;
-        margin-top: 4px;
-        margin-left: 3%;
-        margin-right: 7%;
-    }
-
+        
+            padding-top: 80%;
+            margin-top: 4px;
+            margin-left: 0%;
+            width: 100%;
+            margin-right: 7%;
+        }
 
     h1 {
    
@@ -241,31 +258,40 @@ img.linkedinIcon {
         bottom: 0;
         left: 0;
         padding: 4rem;
-        background-color: transparent;
+        background-color: gray;
         text-align: center;
     }
 
-    center.iconsBaby {
+    /* center.iconsBaby {
         margin-top: -71px;
         position: fixed;
         margin-left: 25%;
-    }
+    } */
 
     img.githubIcon {
-        height: 70px;
-        width: 70px;
-        margin-left: 25px;
+        height: 40px;
+        width: 40px;
+        margin-left: 0px;
     }
     img.linkedinIcon {
-        height: 70px;
-        width: 70px;
-        margin-left: 44px;
-        margin-right: 13px;
+        height: 40px;
+        width: 40px;
+        margin-left: 0px;
     }
      img.SOFIcon {
-        height: 70px;
-        width: 70px;
-        margin-left: 25px;
+        height: 40px;
+        width: 40px;
+        margin-left: 0px;
+    }
+
+    div.footer {
+        /* position: absolute; */
+        right: 0;
+        bottom: 0;
+        left: 0;
+        padding: 0rem;
+        background-color: gray;
+        /* text-align: center; */
     }
 
     a.navbar-brand {
@@ -279,7 +305,58 @@ img.linkedinIcon {
         margin-right: -7px;
     }
     
-    }  
+    } 
+    
+    @media only screen and (max-width:320px) {
+        div.brainImg.jumbotron {
+            padding-top: 79%;
+            margin-top: 4px;
+            margin-left: 0%;
+            margin-right: 0%;
+            width: 100%;
+        }
+
+        img.githubIcon {
+            height: 40px;
+            width: 40px;
+            margin-left: 0px;
+        }
+        img.linkedinIcon {
+            height: 40px;
+            width: 40px;
+            margin-left: 0px;
+        }
+         img.SOFIcon {
+            height: 40px;
+            width: 40px;
+            margin-left: 0px;
+        }
+
+        div.footer {
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            padding: 0rem;
+            background-color: gray;
+            text-align: center;
+        }
+
+        a.navbar-brand {
+            /* float: left; */
+            color: black;
+            /* height: 47px; */
+            padding: 15px 15px;
+            font-size: 15px;
+            line-height: 19px;
+            font-family: 'Cutive Mono', monospace;
+            margin-right: 25px;
+        }
+    
+
+
+    }
+
 
 
 

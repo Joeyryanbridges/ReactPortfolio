@@ -6,6 +6,42 @@ a.btn.btn-default {
     margin-left: 71px;
 }
 
+.instaIcon{
+    height:30px;
+    width:30px;
+}
+
+.facebookIcon{
+    height:60px;
+    width:70px;
+}
+
+.github{
+    height:30px;
+    width:30px;
+}
+
+.linked{
+    height:30px;
+    width:30px;
+}
+
+.SOFI{
+    height:30px;
+    width:30px;
+}
+
+.email{
+    height:60px;
+    width:70px;
+}
+
+.call{
+    height:60px;
+    width:70px;
+}
+
+
 /*iphone 6/7/8 plus*/
 @media screen and (width:414px) {
     a.btn.btn-default {
