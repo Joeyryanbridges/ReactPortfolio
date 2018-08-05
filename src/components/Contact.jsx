@@ -19,10 +19,9 @@ export default class Contact extends React.Component {
                                     <Panel.Title toggle className="text">Lets work together!</Panel.Title>
                                 </Panel.Heading>
                                 <Panel.Body collapsible>
-                                    <Image src="gmail.png" className="email" />
-                                    <br />
-                                    <a href="mailto:joeyryanbridges@gmail.com"></a>
-                                    <br />
+                                    <a href="mailto:joeyryanbridges@gmail.com">
+                                        <Image src="gmail.png" className="email" />
+                                    </a>
                                 </Panel.Body>
                             </Panel>
 
