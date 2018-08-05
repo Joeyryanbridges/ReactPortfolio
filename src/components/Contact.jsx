@@ -66,7 +66,10 @@ export default class Contact extends React.Component {
                         <br />
                         {/* <br />
                         <br /> */}
-                        {/* <p className="lowText">*Click text in panel of your choice to view additional content!*</p> */}
+                        <blockquote>
+                            <p>If at first you don't succeed, pay someone else to do it for you.</p>
+                            <footer><cite className="MH" a>Mark Hoppus</cite></footer>
+                        </blockquote>
                     </Col>
                 </Row>
             </div >
