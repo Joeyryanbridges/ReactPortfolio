@@ -21,7 +21,7 @@ export default class Contact extends React.Component {
                                 <Panel.Body collapsible>
                                     <Image src="gmail.png" className="email" />
                                     <br />
-                                    <a href="mailto:joeyryanbridges@gmail.com"> Shoot me an email!</a>
+                                    <a href="mailto:joeyryanbridges@gmail.com"></a>
                                     <br />
                                 </Panel.Body>
                             </Panel>
@@ -43,24 +43,31 @@ export default class Contact extends React.Component {
                                 <Panel.Heading>
                                     <Panel.Title toggle className="text">Follow me!</Panel.Title>
                                 </Panel.Heading>
-                                <Panel.Body collapsible>
-                                    <Image src="insta.png" className="instaIcon" />
-                                    <a href="https://www.instagram.com/joeyyryanbridges/?hl=en"> IG: @joeyryanbridges</a>
+                                <Panel.Body collapsible><center>
+                                    <a href="https://www.instagram.com/joeyyryanbridges/?hl=en">
+                                        <Image src="insta.png" className="instaIcon" />
+                                    </a>
                                     <br />
-                                    <Image src="facebook.png" className="facebookIcon" />
-                                    <a href="https://www.facebook.com/joey.bridges.37"> FB: Joey Ryan Bridges</a>
+                                    <a href="https://www.facebook.com/joey.bridges.37">
+                                        <Image src="facebook.png" className="facebookIcon" />
+                                    </a>
                                     <br />
-                                    <Image src="giticon.png" className="github" />
-                                    <a href="https://github.com/Joeyryanbridges"> GitHub: joeyryanbridges</a>
-                                    <br />
-                                    <br />
-                                    <Image src="linkedinIcon.png" className="linked" />
-                                    <a href="https://www.linkedin.com/in/joeyrbridges/"> LinkedIn: Joey Ryan Bridges</a>
+                                    <a href="https://github.com/Joeyryanbridges">
+                                        <Image src="giticon.png" className="github" />
+                                    </a>
                                     <br />
                                     <br />
-                                    <Image src="SOFIcon.png" className="SOFI" />
-                                    <a href="https://stackoverflow.com/users/9178799/joeyryanbridges"> Stackoverflow: Joey Ryan Bridges</a>
+                                    <a href="https://www.linkedin.com/in/joeyrbridges/">
+                                        <Image src="linkedinIcon.png" className="linked" />
+                                    </a>
+                                    <br />
+                                    <br />
+                                    <a href="https://stackoverflow.com/users/9178799/joeyryanbridges">
+                                        <Image src="SOFIcon.png" className="SOFI" />
+                                    </a>
+                                </center>
                                 </Panel.Body>
+
                             </Panel>
                         </PanelGroup>
                         <br />
