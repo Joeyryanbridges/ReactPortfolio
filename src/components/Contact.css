@@ -87,10 +87,10 @@ a.btn.btn-default {
         margin-left: 7px;
     }
     .joeyface {
-        height: 334px;
-        width: 345px;
-        margin-right: 6px;
-        margin-left: -1px;
+        height: 344px;
+        width: 348px;
+        margin-right: 0px;
+        margin-left: -2px;
         margin-top: 16px;
         -webkit-box-shadow: 5px 4px 9px grey;
         box-shadow: 9px 9px 9px grey;
@@ -99,12 +99,13 @@ a.btn.btn-default {
     .panel-group {
         margin-left: -25px;
         /* margin-right: 14px; */
-        width: 345px;
+        width: 348px;
         /* background-color: rgb(178, 178, 178); */
         padding-right: 8px;
         padding-left: 7px;
         padding-bottom: 1px;
     }
+    
     .person-wrapper.col-sm-4.col-xs-6 {
         margin-left: 1px;
         margin-right: 2px;
