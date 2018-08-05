@@ -98,7 +98,7 @@ a.navbar-brand {
 /*320px*/
 @media screen and (max-width: 320px){
     .navbar {
-        margin-bottom: 6px;
+        margin-bottom: 17px;
         margin-top: 10px;
         padding-bottom: 10px;
         margin-right: -2px;
