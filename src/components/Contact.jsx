@@ -20,6 +20,7 @@ export default class Contact extends React.Component {
                                 </Panel.Heading>
                                 <Panel.Body collapsible>
                                     <Image src="gmail.png" className="email" />
+                                    <br />
                                     <a href="mailto:joeyryanbridges@gmail.com"> Shoot me an email!</a>
                                     <br />
                                 </Panel.Body>
