@@ -220,6 +220,16 @@ a.btn.btn-default {
     .col-xs-6 {
         width: 91%;
     }
+
+    p {
+        font-family: 'Patrick Hand SC', cursive;
+        font-size: 1em;
+        COLOR:BLACK;
+    }
+
+    .MH {
+        color: red;
+    }
 }
 
  /*iphoneX */

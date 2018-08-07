@@ -37,14 +37,17 @@ export default class About extends Component {
                                         </p>
                                         <p> From the start of my journey at the University of Arizona's coding and Web Development
                                             program, I've gained a good deal of experience in programming in general, and in
-                                            working with JavaScript as a front and back end language in particular.</p>
-                                        <p> I think that the ability to code gives you the tools and skills to have an impact, since
-                                            technology and start-ups are changing the world at an incredible speed. For now,
-                                            my aim is to become an awesome programmer. In the future, I will always have interest
-                                            in being involved in highly innovative projects. </p>
-                                        <p> In this new world of programming, Ill be keeping my mind set to exceed far beyond what
-                                            I even knew I was capable of. Godspeed!
+                                            working with JavaScript as a front and back end language in particular.
                                         </p>
+                                        <p> I think that the ability to code gives you the tools and skills to have an impact, since
+                                            technology and start-ups are changing the world at an incredible rate. For now,
+                                            my aim is to become a well educated, and highly valued programmer. In the future, I will always have interest
+                                            in being involved in highly innovative projects.
+                                        </p>
+                                        <p> In this new world of programming, Ill be keeping my mind set to exceed far beyond what
+                                            I even knew I was capable of.
+                                        </p>
+                                        <p> Godspeed! </p>
                                     </Panel.Body>
                                 </Panel>
                                 <Panel className="style-cards" eventKey="2">
@@ -62,12 +65,13 @@ export default class About extends Component {
                                         <li>Node.js</li>
                                         <li>Sequelize</li>
                                         <li>Nightmare.js</li>
-                                        <li>Sequelize</li>
                                         <li>mySQL</li>
                                         <li>MongoDB</li>
                                         <li>Mongoose</li>
                                         <li>React.js</li>
                                         <li>Node Package Manager (NPM)</li>
+                                        <li>Unit Testing</li>
+                                        <li>Git</li>
                                     </Panel.Body>
                                 </Panel>
                                 <Panel className="style-cards" eventKey="3">
@@ -80,20 +84,19 @@ export default class About extends Component {
 
                                         <li>Python</li>
                                         <li>React Native</li>
-                                        <li>C++</li>
-                                        <li>Java</li>
-                                        <li>PHP</li>
+                                        <li>Vue.js</li>
+                                        <li>Angular.js</li>
+                                        <li>and many more...</li>
 
 
                                     </Panel.Body>
                                 </Panel>
                                 <Panel className="style-cards" eventKey="4">
                                     <Panel.Heading>
-                                        <Panel.Title toggle className="text">Hobbies</Panel.Title>
+                                        <Panel.Title toggle className="text">Day In The Life</Panel.Title>
                                     </Panel.Heading>
                                     <Panel.Body collapsible>
-
-
+                                        <p>I am a self taught musician with the love and passion for wrting, recording, and producing music. I traveled the country playing different venues and clubs in my earlier years, but still occasionally play locally for fun. I love to go hiking with my family, and speding quality family time. I love collecting vinyl records, and make it a goal to listen to a new record at least every one to two days.</p>
                                     </Panel.Body>
                                 </Panel>
                             </PanelGroup>

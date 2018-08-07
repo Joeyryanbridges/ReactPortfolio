@@ -33,7 +33,7 @@
     border-radius: 16px;
 }
 .panel-body{
-    font-family: 'Patrick Hand SC', cursive;
+    /* font-family: 'Patrick Hand SC', cursive; */
 }
 
 #accordion-example-heading-1.panel-heading {
@@ -55,7 +55,7 @@
     font-size: 1.0em;
 }
 .text {
-    font-family: 'Patrick Hand SC', cursive;
+    /* font-family: 'Patrick Hand SC', cursive; */
     font-size: 1.5em;
     color: #60574d;
     text-shadow: -2px -1px 0px 0px black;
@@ -76,7 +76,7 @@
 }
 
 p{
-    font-family: 'Patrick Hand SC', cursive;
+    /* font-family: 'Patrick Hand SC', cursive; */
 }
 
 .iconsBaby {
@@ -368,6 +368,8 @@ and (-webkit-device-pixel-ratio : 3) {
         box-shadow: 9px 9px 9px grey;
         border-radius: 21px;
     }
+
+    
     .panel-group {
         margin-left: -26px;
         background-color: rgba(0, 0, 0, 0);
