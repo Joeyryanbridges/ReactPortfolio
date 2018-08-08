@@ -77,8 +77,11 @@
     border-radius: 16px;
 }
 
-p{
-    /* font-family: 'Patrick Hand SC', cursive; */
+p {
+    font-family: 'Patrick Hand SC', cursive;
+    font-size: 1em;
+    COLOR: #000000;
+
 }
 
 .iconsBaby {
