@@ -10,35 +10,13 @@ export default class Portfolio extends Component {
                 <div className="container-fluid">
                     <Row className="show-grid">
                         <Col xs={12} md={4}>
-                            <h4><center>Goal Post</center></h4>
-                            <Panel>
-                                <Panel.Heading>
-                                    <Panel.Title toggle><Image src="goals.gif" className="gif" responsive /></Panel.Title>
-                                </Panel.Heading>
-                                <Panel.Body collapsible><p><center>The best social app to keep your daily goals all in one place! Check off completed goals, see frinds goals, and take off your list when done!</center></p>
-                                    <center><button type="button" className="btn btn-outline-danger" >View Here!</button></center>
-                                </Panel.Body>
-                            </Panel>
-                        </Col>
-                        <Col xs={12} md={4}>
-                            <h4><center>Quick Bytes</center></h4>
-                            <Panel>
-                                <Panel.Heading>
-                                    <Panel.Title toggle><Image src="cook.gif" className="gif" responsive /></Panel.Title>
-                                </Panel.Heading>
-                                <Panel.Body collapsible><p><center>Needing to make a quick breakfast, lunch, or dinner? Do you only have tomatoes and potatoes? Plug your ingredients here for a recipe!</center></p>
-                                    <center><button type="button" className="btn btn-outline-danger">View Here!</button></center>
-                                </Panel.Body>
-                            </Panel>
-                        </Col>
-                        <Col xs={12} md={4}>
                             <h4><center>Giphy API</center></h4>
                             <Panel>
                                 <Panel.Heading>
                                     <Panel.Title toggle><Image src="giphy.gif" className="gif" responsive /></Panel.Title>
                                 </Panel.Heading>
                                 <Panel.Body collapsible><p><center>Gif search based on all of the "feels". Find some of the funniest gif's to express how you feel here!</center></p>
-                                    <center><button type="button" className="btn btn-outline-danger">View Here!</button></center>
+                                    <center><button type="button" className="btn btn-outline-danger" ><a target="_blank" href="https://joeyryanbridges.github.io/Giphy-API/">View Here</a></button></center>
                                 </Panel.Body>
                             </Panel>
                         </Col>
@@ -51,7 +29,7 @@ export default class Portfolio extends Component {
                                     <Panel.Title toggle><Image src="colors.gif" className="gif" responsive /></Panel.Title>
                                 </Panel.Heading>
                                 <Panel.Body collapsible><p><center>Welcome to COLORS. The object is you have to choose a color, but you can not click the same one twice. You think its easy, its actually not! Try for yourself! </center></p>
-                                    <center><button type="button" className="btn btn-outline-danger">View Here!</button></center>
+                                    <center><button type="button" className="btn btn-outline-danger" ><a target="_blank" href="https://joeyryanbridges.github.io/reactmemorygame/">View Here</a></button></center>
                                 </Panel.Body>
                             </Panel>
                         </Col>
@@ -61,8 +39,8 @@ export default class Portfolio extends Component {
                                 <Panel.Heading>
                                     <Panel.Title toggle><Image src="rx.gif" className="gif" responsive /></Panel.Title>
                                 </Panel.Heading>
-                                <Panel.Body collapsible><p><center>A full stack application that not only keeps track of your RX schedule, but appointments and personal heath information. Stay healthy! </center></p>
-                                    <center><button type="button" className="btn btn-outline-danger">View Here!</button></center>
+                                <Panel.Body collapsible><p><center>A full stack application that not only keeps track of your RX schedule, but appointments and personal heath information. Stay healthy! (Mobile Only!)</center></p>
+                                    <center><button type="button" className="btn btn-outline-danger" ><a target="_blank" href="https://rxtracker.herokuapp.com/">View Here</a></button></center>
                                 </Panel.Body>
                             </Panel>
                         </Col>
@@ -73,7 +51,7 @@ export default class Portfolio extends Component {
                                     <Panel.Title toggle><Image src="simpsons.gif" className="gif" responsive /></Panel.Title>
                                 </Panel.Heading>
                                 <Panel.Body collapsible><p><center>Choose between Homer, Bart, Marge, and Lisa in a battle to the grave! </center></p>
-                                    <center><button type="button" className="btn btn-outline-danger">View Here!</button></center>
+                                    <center><button type="button" className="btn btn-outline-danger" ><a target="_blank" href="https://joeyryanbridges.github.io/week-4-game/">View Here</a></button></center>
                                 </Panel.Body>
                             </Panel>
                         </Col>
