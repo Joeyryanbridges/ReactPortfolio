@@ -24,6 +24,9 @@
 h4 {
     /* font-family: 'Patrick Hand SC', cursive; */
     font-size: 2em;
+    color: ghostwhite;
+    font-family: 'Patrick Hand SC', cursive;
+
 }
 
 .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {

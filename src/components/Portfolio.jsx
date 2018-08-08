@@ -67,7 +67,7 @@ export default class Portfolio extends Component {
                             </Panel>
                         </Col>
                         <Col xs={12} md={4}>
-                            <h4><center>Simpsons Zombie Game</center></h4>
+                            <h4><center>Simpsons Game</center></h4>
                             <Panel>
                                 <Panel.Heading>
                                     <Panel.Title toggle><Image src="simpsons.gif" className="gif" responsive /></Panel.Title>

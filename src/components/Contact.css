@@ -42,6 +42,12 @@ a.btn.btn-default {
     width:70px;
 }
 
+p{
+
+        font-family: 'Patrick Hand SC', cursive;
+        font-size: 1em;
+        COLOR: #cccccc;
+}
 
 /*iphone 6/7/8 plus*/
 @media screen and (width:414px) {
@@ -60,8 +66,8 @@ a.btn.btn-default {
     }
 
     .panel-group {
-        -webkit-box-shadow: 7px 6px 16px 3px grey;
-        box-shadow: 7px 6px 16px 3px grey;
+        /* -webkit-box-shadow: 7px 6px 16px 3px grey;
+        box-shadow: 7px 6px 16px 3px grey; */
         border-radius: 16px;
         width: 118%;
         margin-top: 25px;
@@ -85,11 +91,12 @@ a.btn.btn-default {
         font-size: 17.5px;
         border-left: 5px solid #000;
     }
-    p {
+    p{
+
         font-family: 'Patrick Hand SC', cursive;
         font-size: 1em;
-        COLOR:BLACK;
-    }
+        COLOR: #cccccc;
+}
 
     .MH {
         color: red;
@@ -177,11 +184,12 @@ a.btn.btn-default {
         margin-top: 10px;
     }
 
-    p {
+    p{
+
         font-family: 'Patrick Hand SC', cursive;
         font-size: 1em;
-        COLOR:BLACK;
-    }
+        COLOR: #cccccc;
+}
 
     .MH {
         color: red;
@@ -202,8 +210,8 @@ a.btn.btn-default {
     }
 
     .panel-group {
-        -webkit-box-shadow: 7px 6px 16px 3px grey;
-        box-shadow: 7px 6px 16px 3px grey;
+        /* -webkit-box-shadow: 7px 6px 16px 3px grey;
+        box-shadow: 7px 6px 16px 3px grey; */
         border-radius: 16px;
         width: 121%;
         margin-top: 25px;
@@ -221,11 +229,12 @@ a.btn.btn-default {
         width: 91%;
     }
 
-    p {
+    p{
+
         font-family: 'Patrick Hand SC', cursive;
         font-size: 1em;
-        COLOR:BLACK;
-    }
+        COLOR: #cccccc;
+}
 
     .MH {
         color: red;
@@ -243,8 +252,8 @@ a.btn.btn-default {
                 margin-right: 6px;
                 margin-left: 4px;
                 margin-top: 0px;
-                -webkit-box-shadow: 5px 4px 9px grey;
-                box-shadow: 9px 9px 9px grey;
+                /* -webkit-box-shadow: 5px 4px 9px grey;
+                box-shadow: 9px 9px 9px grey; */
                 border-radius: 15px;
             }
     
@@ -264,10 +273,11 @@ blockquote {
     margin-top: -92px;
     border-left: 5px solid #000;
 }
-p {
+p{
+
     font-family: 'Patrick Hand SC', cursive;
     font-size: 1em;
-    COLOR:BLACK;
+    COLOR: #cccccc;
 }
         }
 

@@ -3,7 +3,9 @@
     width: 555px;
     margin-right: 193px;
     -webkit-box-shadow: 5px 4px 9px grey;
-    box-shadow: 9px 9px 9px #414141;
+    box-shadow: 9px 9px 9px #141414;
+    border-radius: 15px;
+
 }
 
 #accordion-example-heading-1.panel-heading {
@@ -93,8 +95,8 @@ p{
     .panel-group {
         margin-left: -30px;
         margin-right: 5px;
-        -webkit-box-shadow: 7px 6px 16px 3px grey;
-        box-shadow: 7px 6px 16px 3px grey;
+        /* -webkit-box-shadow: 7px 6px 16px 3px grey;
+        box-shadow: 7px 6px 16px 3px grey; */
         border-radius: 16px;
     }
     .lowText {
@@ -127,8 +129,8 @@ p{
         margin-top: 0.3%;
         margin-left: -97px;
         margin-right: 5px;
-        -webkit-box-shadow: 7px 6px 16px 3px grey;
-        box-shadow: 7px 6px 16px 3px grey;
+        /* -webkit-box-shadow: 7px 6px 16px 3px grey;
+        box-shadow: 7px 6px 16px 3px grey; */
         border-radius: 16px;
     }
     .lowText {
@@ -186,8 +188,8 @@ p{
         margin-top: 3.3%;
         margin-left: 26px;
         margin-right: -27px;
-        -webkit-box-shadow: 7px 6px 16px 3px grey;
-        box-shadow: 7px 6px 16px 3px grey;
+        /* -webkit-box-shadow: 7px 6px 16px 3px grey;
+        box-shadow: 7px 6px 16px 3px grey; */
         border-radius: 16px;
     }
 
@@ -224,8 +226,8 @@ p{
     }
 
     .panel-group {
-        -webkit-box-shadow: 7px 6px 16px 3px grey;
-        box-shadow: 7px 6px 16px 3px grey;
+        /* -webkit-box-shadow: 7px 6px 16px 3px grey;
+        box-shadow: 7px 6px 16px 3px grey; */
         border-radius: 16px;
         width: 117%;
         margin-top: 25px;
@@ -251,8 +253,8 @@ p{
         margin-top: 14px;
         margin-bottom: -5px;
         /* -webkit-box-shadow: 5px 4px 9px grey; */
-        -webkit-box-shadow: 9px 9px 9px grey;
-        box-shadow: 9px 9px 9px grey;
+        /* -webkit-box-shadow: 9px 9px 9px grey;
+        box-shadow: 9px 9px 9px grey; */
     }
 
     .panel-group {
