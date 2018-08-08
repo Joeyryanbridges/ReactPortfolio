@@ -96,7 +96,7 @@ export default class About extends Component {
                                         <Panel.Title toggle className="text">Day In The Life</Panel.Title>
                                     </Panel.Heading>
                                     <Panel.Body collapsible>
-                                        <p>I am a self taught musician with the love and passion for wrting, recording, and producing music. I traveled the country playing different venues and clubs in my earlier years, but still occasionally play locally for fun. I love to go hiking with my family, and speding quality family time. I love collecting vinyl records, and make it a goal to listen to a new record at least every one to two days.</p>
+                                        <p>I am a self taught musician with the love and passion for wrting, recording, and producing music. I traveled the country playing different venues and clubs in my earlier years, but still occasionally play locally for fun. I love to go hiking, and spending quality family time. Collecting vinyl records is one of my favorite hobbies, and I make it a goal to listen to a new record at least every one to two days.</p>
                                     </Panel.Body>
                                 </Panel>
                             </PanelGroup>

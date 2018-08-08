@@ -15,7 +15,7 @@ export default class Portfolio extends Component {
                                 <Panel.Heading>
                                     <Panel.Title toggle><Image src="colors.gif" className="gif" responsive /></Panel.Title>
                                 </Panel.Heading>
-                                <Panel.Body collapsible><p><center>Welcome to COLORS. The object is you have to choose a color, but you can not click the same one twice. You think its easy, its actually not! Try for yourself! </center></p>
+                                <Panel.Body collapsible><p><center>Welcome to COLORS. The object is to choose a color, but you can not click the same one twice. You think its easy, its actually not! Try for yourself! </center></p>
                                     <center><button type="button" className="btn btn-outline-danger" ><a target="_blank" href="https://joeyryanbridges.github.io/reactmemorygame/">View Here</a></button></center>
                                 </Panel.Body>
                             </Panel>
